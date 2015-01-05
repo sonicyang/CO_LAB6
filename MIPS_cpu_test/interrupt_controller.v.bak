@@ -1,0 +1,51 @@
+`include "timescale.v"
+// synopsys translate_on
+
+
+module interrupt_controller(irqn,rst_n,clk,if_pc,epc,status,cause,want2isr_n,in_isr);
+			input 	irqn;
+			input 	rst_n;
+			input 	clk;
+			input 	if_pc;
+			input 	in_isr;
+			output 	epc;
+			output 	cause;
+			output 	status;
+			output  want2isr_n;
+			
+			reg   	[31:0]	epc;
+			reg   	[31:0]	cause;
+			reg		[31:0]	status;
+			wire    [31:0]	if_pc;
+			wire        	in_isr;
+			
+			reg  			want2isr_n_reg;
+			reg				want2isr_n;
+			
+always@(negedge clk)
+        begin		
+			if( ( ~irqn and in_isr))
+				begin
+				epc <= if_pc;
+				want2isr_n <= 1'b0;
+				end
+			else   
+				begin
+					epc <= epc;
+				//	want2isr_n = (if_pc == 32'h00008200)?  1'b0:1'b1;	
+				end
+		end
+/*			
+always@(negedge clk or negedge rst_n)
+        begin
+				if(~irqn)  
+					begin
+						epc <= if_pc;
+						if(~want2isr_n_reg)
+								want2isr_n = (if_pc == 32'h00820000)?  1'b1:1'b0;	
+					end
+				else 	epc <= epc;
+
+        end
+*/
+endmodule

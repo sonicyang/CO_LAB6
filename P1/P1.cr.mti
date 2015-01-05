@@ -1,0 +1,330 @@
+C:/E24026048_LAB6/MIPS_cpu_test/mul_decode.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/mul_decode.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/mul_decode.v(18): Cannot open `include file "timescale.v".
+-- Compiling module mul_decode
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/boot_state.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/boot_state.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/boot_state.v(18): Cannot open `include file "timescale.v".
+-- Compiling module boot_state
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg32_ne.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg32_ne.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg32_ne.v(18): Cannot open `include file "timescale.v".
+-- Compiling module cpu_reg32_ne
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/hazard_det_unit.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/hazard_det_unit.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/hazard_det_unit.v(18): Cannot open `include file "timescale.v".
+-- Compiling module hazard_det_unit
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/testbench.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/testbench.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/testbench.v(17): Cannot open `include file "timescale.v".
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/testbench.v(18): Cannot open `include file "memory.v".
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/testbench.v(19): Cannot open `include file "dcache_system.v".
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/testbench.v(20): Cannot open `include file "cpu_top.v".
+-- Compiling module testbench
+
+} {3.0 7.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_wb.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_wb.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_wb.v(18): Cannot open `include file "timescale.v".
+-- Compiling module cpu_wb
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/mul_fsm.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/mul_fsm.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/mul_fsm.v(18): Cannot open `include file "timescale.v".
+-- Compiling module mul_fsm
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg4_ne.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg4_ne.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg4_ne.v(18): Cannot open `include file "timescale.v".
+-- Compiling module cpu_reg4_ne
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg8x4_ne.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg8x4_ne.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg8x4_ne.v(18): Cannot open `include file "timescale.v".
+-- Compiling module cpu_reg8x4_ne
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v(18): Cannot open `include file "timescale.v".
+-- Compiling module cpu_id
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/dcache_system.v {1 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/dcache_system.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module dcache_system
+
+Top level modules:
+	dcache_system
+
+} {} {}} C:/E24026048_LAB6/MIPS_cpu_test/forward_unit.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/forward_unit.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/forward_unit.v(18): Cannot open `include file "timescale.v".
+-- Compiling module forward_unit
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/fu_cla4v.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/fu_cla4v.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/fu_cla4v.v(21): Cannot open `include file "timescale.v".
+-- Compiling module fu_cla4v
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg8x4_ne_cp.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg8x4_ne_cp.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg8x4_ne_cp.v(18): Cannot open `include file "timescale.v".
+-- Compiling module cpu_reg8x4_ne_cp
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/fu_csa32.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/fu_csa32.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/fu_csa32.v(20): Cannot open `include file "timescale.v".
+-- Compiling module fu_csa32
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/fu_csa8v.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/fu_csa8v.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/fu_csa8v.v(21): Cannot open `include file "timescale.v".
+-- Compiling module fu_csa8v
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg1_ne.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg1_ne.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg1_ne.v(18): Cannot open `include file "timescale.v".
+-- Compiling module cpu_reg1_ne
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/count.v {1 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/count.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module count
+
+Top level modules:
+	count
+
+} {} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_regbank.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_regbank.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_regbank.v(18): Cannot open `include file "timescale.v".
+-- Compiling module cpu_regbank
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/fu_csa8.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/fu_csa8.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/fu_csa8.v(20): Cannot open `include file "timescale.v".
+-- Compiling module fu_csa8
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/fu_alu.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/fu_alu.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/fu_alu.v(18): Cannot open `include file "timescale.v".
+-- Compiling module fu_alu
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/decision.v {1 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/decision.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cacheDecide
+
+Top level modules:
+	cacheDecide
+
+} {} {}} C:/E24026048_LAB6/MIPS_cpu_test/fu_csa16v.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/fu_csa16v.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/fu_csa16v.v(21): Cannot open `include file "timescale.v".
+-- Compiling module fu_csa16v
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_core.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_core.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_core.v(18): Cannot open `include file "timescale.v".
+-- Compiling module cpu_core
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/control_unit.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/control_unit.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/control_unit.v(18): Cannot open `include file "timescale.v".
+-- Compiling module control_unit
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg32_ne_ex.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg32_ne_ex.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg32_ne_ex.v(3): Cannot open `include file "timescale.v".
+-- Compiling module cpu_reg32_ne_ex
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/hitrate.v {1 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/hitrate.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module hitrate
+
+Top level modules:
+	hitrate
+
+} {} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_wb_alignment.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_wb_alignment.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_wb_alignment.v(18): Cannot open `include file "timescale.v".
+-- Compiling module cpu_wb_alignment
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/interrupt_controller.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/interrupt_controller.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/interrupt_controller.v(1): Cannot open `include file "timescale.v".
+-- Compiling module interrupt_controller
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/fu_csa16.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/fu_csa16.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/fu_csa16.v(20): Cannot open `include file "timescale.v".
+-- Compiling module fu_csa16
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/memc.v {1 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/memc.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module memc
+
+Top level modules:
+	memc
+
+} {} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg3_ne.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg3_ne.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg3_ne.v(18): Cannot open `include file "timescale.v".
+-- Compiling module cpu_reg3_ne
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/fu_shifter_mask.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/fu_shifter_mask.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/fu_shifter_mask.v(18): Cannot open `include file "timescale.v".
+-- Compiling module fu_shifter_mask
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/memv.v {1 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/memv.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module memv
+
+Top level modules:
+	memv
+
+} {} {}} C:/E24026048_LAB6/P1/I_Cache.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/P1/I_Cache.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/P1/I_Cache.v(8): Cannot open `include file "timescale.v".
+-- Compiling module I_Cache
+** Error: C:/E24026048_LAB6/P1/I_Cache.v(72): near ")": syntax error, unexpected ')'
+** Error: C:/E24026048_LAB6/P1/I_Cache.v(73): near "b": syntax error, unexpected "IDENTIFIER"
+** Error: C:/E24026048_LAB6/P1/I_Cache.v(74): near ")": syntax error, unexpected ')'
+** Error: C:/E24026048_LAB6/P1/I_Cache.v(79): Undefined variable: Cache_Vaild.
+
+} {3.0 4.0 5.0 9.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_mem.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_mem.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_mem.v(18): Cannot open `include file "timescale.v".
+-- Compiling module cpu_mem
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/fu_cla4.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/fu_cla4.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/fu_cla4.v(20): Cannot open `include file "timescale.v".
+-- Compiling module fu_cla4
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/mul_top.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/mul_top.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/mul_top.v(18): Cannot open `include file "timescale.v".
+-- Compiling module mul_top
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/clkrst.v {1 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/clkrst.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} C:/E24026048_LAB6/MIPS_cpu_test/cache.v {1 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cache.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module cache
+
+Top level modules:
+	cache
+
+} {} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_if.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_if.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_if.v(18): Cannot open `include file "timescale.v".
+-- Compiling module cpu_if
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg8_ne.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg8_ne.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg8_ne.v(18): Cannot open `include file "timescale.v".
+-- Compiling module cpu_reg8_ne
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/fu_shifter.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/fu_shifter.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/fu_shifter.v(20): Cannot open `include file "timescale.v".
+-- Compiling module fu_shifter
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_decode5to32.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_decode5to32.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_decode5to32.v(18): Cannot open `include file "timescale.v".
+-- Compiling module cpu_decode5to32
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/dff.v {1 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/dff.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} C:/E24026048_LAB6/MIPS_cpu_test/fu_csa34.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/fu_csa34.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/fu_csa34.v(20): Cannot open `include file "timescale.v".
+-- Compiling module fu_csa34
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/change_signal.v {1 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/change_signal.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module change_signal
+
+Top level modules:
+	change_signal
+
+} {} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg5_ne.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg5_ne.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg5_ne.v(18): Cannot open `include file "timescale.v".
+-- Compiling module cpu_reg5_ne
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/memory.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/memory.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/memory.v(17): Cannot open `include file "timescale.v".
+-- Compiling module memory
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg2_ne.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg2_ne.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_reg2_ne.v(18): Cannot open `include file "timescale.v".
+-- Compiling module cpu_reg2_ne
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_top.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_top.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: I_Cache.v(8): Cannot open `include file "timescale.v".
+-- Compiling module I_Cache
+** Error: I_Cache.v(72): near ")": syntax error, unexpected ')'
+** Error: I_Cache.v(73): near "b": syntax error, unexpected "IDENTIFIER"
+** Error: I_Cache.v(74): near ")": syntax error, unexpected ')'
+** Error: I_Cache.v(79): Undefined variable: Cache_Vaild.
+-- Compiling module cpu_top
+
+} {3.0 4.0 5.0 9.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/dff_en.v {1 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/dff_en.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module dff_en
+
+Top level modules:
+	dff_en
+
+} {} {}} C:/E24026048_LAB6/MIPS_cpu_test/mem_ctrl.v {1 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/mem_ctrl.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module mem_ctrl
+
+Top level modules:
+	mem_ctrl
+
+} {} {}} C:/E24026048_LAB6/MIPS_cpu_test/cpu_ex.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/cpu_ex.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/cpu_ex.v(18): Cannot open `include file "timescale.v".
+-- Compiling module cpu_ex
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/I_Cache.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/I_Cache.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/I_Cache.v(8): Cannot open `include file "timescale.v".
+-- Compiling module I_Cache
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/I_Cache.v(67): near "assign": syntax error, unexpected "assign"
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/I_Cache.v(73): near "assign": syntax error, unexpected "assign"
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/I_Cache.v(133): near "=": syntax error, unexpected '=', expecting "++" or "--"
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/I_Cache.v(139): near ")": syntax error, unexpected ')', expecting ';'
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/I_Cache.v(144): near "end": syntax error, unexpected "end"
+
+} {3.0 4.0 5.0 10.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/branch_unit.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/branch_unit.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/branch_unit.v(18): Cannot open `include file "timescale.v".
+-- Compiling module branch_unit
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/mul_reg1_ne.v {0 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/mul_reg1_ne.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: C:/E24026048_LAB6/MIPS_cpu_test/mul_reg1_ne.v(18): Cannot open `include file "timescale.v".
+-- Compiling module mul_reg1_ne
+
+} {3.0 4.0} {}} C:/E24026048_LAB6/MIPS_cpu_test/timescale.v {1 {vlog -work work -vopt -nocovercells C:/E24026048_LAB6/MIPS_cpu_test/timescale.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+
+} {} {}}

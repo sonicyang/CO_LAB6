@@ -1,0 +1,378 @@
+/home/blahuang/Documents/COexp/MIPS_cpu_test/fu_csa34.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_csa34.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module fu_csa34
+
+Top level modules:
+	fu_csa34
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_top.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_top.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_top
+
+Top level modules:
+	cpu_top
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg8x4_ne.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg8x4_ne.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_reg8x4_ne
+
+Top level modules:
+	cpu_reg8x4_ne
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/dcache_system.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/dcache_system.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module dcache_system
+
+Top level modules:
+	dcache_system
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/control_unit.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/control_unit.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module control_unit
+
+Top level modules:
+	control_unit
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_wb.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_wb.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_wb
+
+Top level modules:
+	cpu_wb
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/count.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/count.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module count
+
+Top level modules:
+	count
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg3_ne.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg3_ne.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_reg3_ne
+
+Top level modules:
+	cpu_reg3_ne
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/mem_ctrl.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/mem_ctrl.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module mem_ctrl
+
+Top level modules:
+	mem_ctrl
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_id.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_id.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_id
+
+Top level modules:
+	cpu_id
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/hazard_det_unit.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/hazard_det_unit.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module hazard_det_unit
+
+Top level modules:
+	hazard_det_unit
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_shifter.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_shifter.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module fu_shifter
+
+Top level modules:
+	fu_shifter
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/interrupt_controller.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/interrupt_controller.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module interrupt_controller
+
+Top level modules:
+	interrupt_controller
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/memc.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/memc.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module memc
+
+Top level modules:
+	memc
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/mul_fsm.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/mul_fsm.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module mul_fsm
+
+Top level modules:
+	mul_fsm
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_alu.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_alu.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module fu_alu
+
+Top level modules:
+	fu_alu
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/memv.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/memv.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module memv
+
+Top level modules:
+	memv
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/timescale.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/timescale.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg8_ne.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg8_ne.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_reg8_ne
+
+Top level modules:
+	cpu_reg8_ne
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/dff.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/dff.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_csa8.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_csa8.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module fu_csa8
+
+Top level modules:
+	fu_csa8
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg5_ne.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg5_ne.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_reg5_ne
+
+Top level modules:
+	cpu_reg5_ne
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_cla4v.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_cla4v.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module fu_cla4v
+
+Top level modules:
+	fu_cla4v
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg8x4_ne_cp.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg8x4_ne_cp.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_reg8x4_ne_cp
+
+Top level modules:
+	cpu_reg8x4_ne_cp
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_csa32.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_csa32.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module fu_csa32
+
+Top level modules:
+	fu_csa32
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_csa8v.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_csa8v.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module fu_csa8v
+
+Top level modules:
+	fu_csa8v
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/testbench.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/testbench.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module memory
+-- Compiling module dcache_system
+-- Compiling module cpu_top
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg32_ne_ex.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg32_ne_ex.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_reg32_ne_ex
+
+Top level modules:
+	cpu_reg32_ne_ex
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/mul_decode.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/mul_decode.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module mul_decode
+
+Top level modules:
+	mul_decode
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg2_ne.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg2_ne.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_reg2_ne
+
+Top level modules:
+	cpu_reg2_ne
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/boot_state.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/boot_state.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module boot_state
+
+Top level modules:
+	boot_state
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/branch_unit.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/branch_unit.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module branch_unit
+
+Top level modules:
+	branch_unit
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/decision.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/decision.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cacheDecide
+
+Top level modules:
+	cacheDecide
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/mul_reg1_ne.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/mul_reg1_ne.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module mul_reg1_ne
+
+Top level modules:
+	mul_reg1_ne
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_core.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_core.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_core
+
+Top level modules:
+	cpu_core
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_shifter_mask.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_shifter_mask.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module fu_shifter_mask
+
+Top level modules:
+	fu_shifter_mask
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/clkrst.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/clkrst.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/change_signal.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/change_signal.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module change_signal
+
+Top level modules:
+	change_signal
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_if.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_if.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_if
+
+Top level modules:
+	cpu_if
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_mem.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_mem.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_mem
+
+Top level modules:
+	cpu_mem
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_wb_alignment.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_wb_alignment.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_wb_alignment
+
+Top level modules:
+	cpu_wb_alignment
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_cla4.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_cla4.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module fu_cla4
+
+Top level modules:
+	fu_cla4
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_csa16v.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_csa16v.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module fu_csa16v
+
+Top level modules:
+	fu_csa16v
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/mul_top.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/mul_top.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module mul_top
+
+Top level modules:
+	mul_top
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_csa16.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/fu_csa16.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module fu_csa16
+
+Top level modules:
+	fu_csa16
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg4_ne.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg4_ne.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_reg4_ne
+
+Top level modules:
+	cpu_reg4_ne
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg32_ne.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg32_ne.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_reg32_ne
+
+Top level modules:
+	cpu_reg32_ne
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_decode5to32.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_decode5to32.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_decode5to32
+
+Top level modules:
+	cpu_decode5to32
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg1_ne.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_reg1_ne.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_reg1_ne
+
+Top level modules:
+	cpu_reg1_ne
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_regbank.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_regbank.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_regbank
+
+Top level modules:
+	cpu_regbank
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/memory.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/memory.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/dff_en.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/dff_en.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module dff_en
+
+Top level modules:
+	dff_en
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_ex.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/cpu_ex.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cpu_ex
+
+Top level modules:
+	cpu_ex
+
+} {} {}} /home/blahuang/Documents/COexp/MIPS_cpu_test/forward_unit.v {1 {vlog -work work -vopt /home/blahuang/Documents/COexp/MIPS_cpu_test/forward_unit.v
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module forward_unit
+
+Top level modules:
+	forward_unit
+
+} {} {}}

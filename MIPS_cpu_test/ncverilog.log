@@ -1,0 +1,140 @@
+ncverilog: 08.20-s024: (c) Copyright 1995-2010 Cadence Design Systems, Inc.
+TOOL:	ncverilog	08.20-s024: Started on Jul 11, 2013 at 14:19:46 CST
+ncverilog
+	-y
+	/opt/cad/synopsys/synthesis/cur/dw/sim_ver/
+	+libext+.v
+	+incdir+/opt/cad/synopsys/synthesis/cur/dw/sim_ver
+	testbench.v
+	+access+r
+file: testbench.v
+	module worklib.memory:v
+		errors: 0, warnings: 0
+	//準備一個決定寫入cache1.2的module
+	  |
+ncvlog: *W,NONPRT (dcache_system.v,94|3): non-printable character (0xe6) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	   |
+ncvlog: *W,NONPRT (dcache_system.v,94|4): non-printable character (0xba) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	    |
+ncvlog: *W,NONPRT (dcache_system.v,94|5): non-printable character (0x96) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	     |
+ncvlog: *W,NONPRT (dcache_system.v,94|6): non-printable character (0xe5) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	      |
+ncvlog: *W,NONPRT (dcache_system.v,94|7): non-printable character (0x82) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	       |
+ncvlog: *W,NONPRT (dcache_system.v,94|8): non-printable character (0x99) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	        |
+ncvlog: *W,NONPRT (dcache_system.v,94|9): non-printable character (0xe4) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	         |
+ncvlog: *W,NONPRT (dcache_system.v,94|10): non-printable character (0xb8) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	          |
+ncvlog: *W,NONPRT (dcache_system.v,94|11): non-printable character (0x80) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	           |
+ncvlog: *W,NONPRT (dcache_system.v,94|12): non-printable character (0xe5) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	            |
+ncvlog: *W,NONPRT (dcache_system.v,94|13): non-printable character (0x80) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	             |
+ncvlog: *W,NONPRT (dcache_system.v,94|14): non-printable character (0x8b) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	              |
+ncvlog: *W,NONPRT (dcache_system.v,94|15): non-printable character (0xe6) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	               |
+ncvlog: *W,NONPRT (dcache_system.v,94|16): non-printable character (0xb1) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	                |
+ncvlog: *W,NONPRT (dcache_system.v,94|17): non-printable character (0xba) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	                 |
+ncvlog: *W,NONPRT (dcache_system.v,94|18): non-printable character (0xe5) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	                  |
+ncvlog: *W,NONPRT (dcache_system.v,94|19): non-printable character (0xae) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	                   |
+ncvlog: *W,NONPRT (dcache_system.v,94|20): non-printable character (0x9a) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	                    |
+ncvlog: *W,NONPRT (dcache_system.v,94|21): non-printable character (0xe5) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	                     |
+ncvlog: *W,NONPRT (dcache_system.v,94|22): non-printable character (0xaf) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	                      |
+ncvlog: *W,NONPRT (dcache_system.v,94|23): non-printable character (0xab) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	                       |
+ncvlog: *W,NONPRT (dcache_system.v,94|24): non-printable character (0xe5) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	                        |
+ncvlog: *W,NONPRT (dcache_system.v,94|25): non-printable character (0x85) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	//準備一個決定寫入cache1.2的module
+	                         |
+ncvlog: *W,NONPRT (dcache_system.v,94|26): non-printable character (0xa5) ignored.
+(`include file: dcache_system.v line 94, file: testbench.v line 19)
+	module worklib.dcache_system:v
+		errors: 0, warnings: 24
+	module worklib.cpu_top:v
+		errors: 0, warnings: 0
+	module worklib.testbench:v
+		errors: 0, warnings: 0
+ncvlog: *W,LIBNOU: Library "/opt/cad/synopsys/synthesis/cur/dw/sim_ver/" given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+cpu_core u_cpu_core(
+                  |
+ncelab: *E,CUVMUR (./cpu_top.v,80|18): instance 'testbench.u_cpu_top@cpu_top<module>.u_cpu_core' of design unit 'cpu_core' is unresolved in 'worklib.cpu_top:v'.
+	count counter (.go(rd_mem), .change(change), .clk(clk), .rst(rst));
+	            |
+ncelab: *E,CUVMUR (./dcache_system.v,72|13): instance 'testbench.dcache1@dcache_system<module>.counter' of design unit 'count' is unresolved in 'worklib.dcache_system:v'.
+	cacheDecide cacheD(.numout(numout) ,.cacheWR(cacheWR), .rst(rst));
+	                 |
+ncelab: *E,CUVMUR (./dcache_system.v,95|18): instance 'testbench.dcache1@dcache_system<module>.cacheD' of design unit 'cacheDecide' is unresolved in 'worklib.dcache_system:v'.
+	mem_ctrl ctrl_unit(
+	                 |
+ncelab: *E,CUVMUR (./dcache_system.v,99|18): instance 'testbench.dcache1@dcache_system<module>.ctrl_unit' of design unit 'mem_ctrl' is unresolved in 'worklib.dcache_system:v'.
+	cache #(0 + mem_type) c0 (
+	                       |
+ncelab: *E,CUVMUR (./dcache_system.v,109|24): instance 'testbench.dcache1@dcache_system<module>.c0' of design unit 'cache' is unresolved in 'worklib.dcache_system:v'.
+		cache #(0 + mem_type) c1 (
+		                       |
+ncelab: *E,CUVMUR (./dcache_system.v,119|25): instance 'testbench.dcache1@dcache_system<module>.c1' of design unit 'cache' is unresolved in 'worklib.dcache_system:v'.
+ncverilog: *E,ELBERR: Error during elaboration (status 1), exiting.
+TOOL:	ncverilog	08.20-s024: Exiting on Jul 11, 2013 at 14:19:46 CST  (total: 00:00:00)

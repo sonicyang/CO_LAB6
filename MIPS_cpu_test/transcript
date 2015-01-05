@@ -1,0 +1,2213 @@
+# //  ModelSim SE 10.1a Feb 21 2012 Linux 2.6.18-308.11.1.el5PAE
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+project open /home/blahuang/Desktop/COexp/MIPS_cpu_test/2waycache
+# Loading project 2waycache
+vsim work.testbench
+# vsim work.testbench 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(291): (vopt-2241) Connection width does not match width of port 'irq'. The port definition is at: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_if.v(25).
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v(204): (vopt-2241) Connection width does not match width of port 'IRQ'. The port definition is at: cpu_top.v(27).
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v(225): (vopt-2241) Connection width does not match width of port 'DataOut_test'. The port definition is at: dcache_system.v(5).
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(803): (vopt-2685) [TFMPC] - Too few port connections for 'u_id2ex_mul_sign'.  Expected 6, found 5.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(803): (vopt-2718) [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(811): (vopt-2685) [TFMPC] - Too few port connections for 'u_id2ex_mul_type'.  Expected 6, found 5.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(811): (vopt-2718) [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): (vopt-2685) [TFMPC] - Too few port connections for 'u_id2ex_mul_a'.  Expected 8, found 5.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): (vopt-2718) [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): (vopt-2718) [TFMPC] - Missing connection for port 'epc'.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): (vopt-2718) [TFMPC] - Missing connection for port 'irq'.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): (vopt-2685) [TFMPC] - Too few port connections for 'u_id2ex_mul_b'.  Expected 8, found 5.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): (vopt-2718) [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): (vopt-2718) [TFMPC] - Missing connection for port 'epc'.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): (vopt-2718) [TFMPC] - Missing connection for port 'irq'.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(837): (vopt-2685) [TFMPC] - Too few port connections for 'u_id2ex_mul_rs'.  Expected 6, found 5.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(837): (vopt-2718) [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(845): (vopt-2685) [TFMPC] - Too few port connections for 'u_id2ex_mul_rt'.  Expected 6, found 5.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(845): (vopt-2718) [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_mem.v(372): (vopt-2685) [TFMPC] - Too few port connections for 'u_m2wb_cp0_type'.  Expected 6, found 5.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_mem.v(372): (vopt-2718) [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(462): (vopt-2685) [TFMPC] - Too few port connections for 'u_cpuex'.  Expected 71, found 70.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(540): (vopt-2685) [TFMPC] - Too few port connections for 'u_cpuwb'.  Expected 14, found 13.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(540): (vopt-2718) [TFMPC] - Missing connection for port 'irqn'.
+# ** Warning: cpu_top.v(121): (vopt-2685) [TFMPC] - Too few port connections for 'u_cpu_core'.  Expected 22, found 16.
+# ** Warning: cpu_top.v(121): (vopt-2718) [TFMPC] - Missing connection for port 'CPRDBUS'.
+# ** Warning: cpu_top.v(121): (vopt-2718) [TFMPC] - Missing connection for port 'CPRRSEL'.
+# ** Warning: cpu_top.v(121): (vopt-2718) [TFMPC] - Missing connection for port 'CPRRNUM'.
+# ** Warning: cpu_top.v(121): (vopt-2718) [TFMPC] - Missing connection for port 'CPWRNUM'.
+# ** Warning: cpu_top.v(121): (vopt-2718) [TFMPC] - Missing connection for port 'CPWREN'.
+# ** Warning: cpu_top.v(121): (vopt-2718) [TFMPC] - Missing connection for port 'CPWDBUS'.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_ex.v(372): (vopt-2685) [TFMPC] - Too few port connections for 'u_ex2m_cp0_type'.  Expected 6, found 5.
+# ** Warning: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_ex.v(372): (vopt-2718) [TFMPC] - Missing connection for port 'iack'.
+# Loading work.testbench(fast)
+# Loading work.cpu_ex(fast)
+add wave sim:/testbench/u_cpu_top/*
+# (vish-4014) No objects found matching '/testbench/u_cpu_top/*'.
+add wave sim:/testbench/dcache1/*
+# (vish-4014) No objects found matching '/testbench/dcache1/*'.
+quit -sim
+# Compile of boot_state.v was successful.
+# Compile of branch_unit.v was successful.
+# Compile of cache.v was successful.
+# Compile of change_signal.v was successful.
+# Compile of clkrst.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of count.v was successful.
+# Compile of cpu_core.v was successful.
+# Compile of cpu_decode5to32.v was successful.
+# Compile of cpu_ex.v was successful.
+# Compile of cpu_id.v was successful.
+# Compile of cpu_if.v was successful.
+# Compile of cpu_mem.v was successful.
+# Compile of cpu_reg1_ne.v was successful.
+# Compile of cpu_reg2_ne.v was successful.
+# Compile of cpu_reg3_ne.v was successful.
+# Compile of cpu_reg4_ne.v was successful.
+# Compile of cpu_reg5_ne.v was successful.
+# Compile of cpu_reg8_ne.v was successful.
+# Compile of cpu_reg8x4_ne.v was successful.
+# Compile of cpu_reg8x4_ne_cp.v was successful.
+# Compile of cpu_reg32_ne.v was successful.
+# Compile of cpu_reg32_ne_ex.v was successful.
+# Compile of cpu_regbank.v was successful.
+# Compile of cpu_top.v was successful.
+# Compile of cpu_wb.v was successful.
+# Compile of cpu_wb_alignment.v was successful.
+# Compile of dcache_system.v was successful.
+# Compile of decision.v was successful.
+# Compile of dff.v was successful.
+# Compile of dff_en.v was successful.
+# Compile of forward_unit.v was successful.
+# Compile of fu_alu.v was successful.
+# Compile of fu_cla4.v was successful.
+# Compile of fu_cla4v.v was successful.
+# Compile of fu_csa8.v was successful.
+# Compile of fu_csa8v.v was successful.
+# Compile of fu_csa16.v was successful.
+# Compile of fu_csa16v.v was successful.
+# Compile of fu_csa32.v was successful.
+# Compile of fu_csa34.v was successful.
+# Compile of fu_shifter.v was successful.
+# Compile of fu_shifter_mask.v was successful.
+# Compile of hazard_det_unit.v was successful.
+# Compile of interrupt_controller.v was successful.
+# Compile of mem_ctrl.v was successful.
+# Compile of memc.v was successful.
+# Compile of memory.v was successful.
+# Compile of memv.v was successful.
+# Compile of mul_decode.v was successful.
+# Compile of mul_fsm.v was successful.
+# Compile of mul_reg1_ne.v was successful.
+# Compile of mul_top.v was successful.
+# Compile of testbench.v was successful.
+# Compile of timescale.v was successful.
+# Compile of hitrate.v was successful.
+# Compile of I_Cache.v was successful.
+# 57 compiles, 0 failed with no errors. 
+vsim -novopt work.testbench
+# vsim -novopt work.testbench 
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.testbench
+# Loading work.testbench
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_top
+# Loading work.cpu_top
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_core
+# Loading work.cpu_core
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.interrupt_controller
+# Loading work.interrupt_controller
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_if
+# Loading work.cpu_if
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.boot_state
+# Loading work.boot_state
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg32_ne
+# Loading work.cpu_reg32_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg32_ne_ex
+# Loading work.cpu_reg32_ne_ex
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_id
+# Loading work.cpu_id
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.control_unit
+# Loading work.control_unit
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.hazard_det_unit
+# Loading work.hazard_det_unit
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_regbank
+# Loading work.cpu_regbank
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_decode5to32
+# Loading work.cpu_decode5to32
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg8x4_ne
+# Loading work.cpu_reg8x4_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg8_ne
+# Loading work.cpu_reg8_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg8x4_ne_cp
+# Loading work.cpu_reg8x4_ne_cp
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.forward_unit
+# Loading work.forward_unit
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_csa32
+# Loading work.fu_csa32
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_csa16
+# Loading work.fu_csa16
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_csa8
+# Loading work.fu_csa8
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_cla4
+# Loading work.fu_cla4
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_csa16v
+# Loading work.fu_csa16v
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_csa8v
+# Loading work.fu_csa8v
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_cla4v
+# Loading work.fu_cla4v
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.branch_unit
+# Loading work.branch_unit
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg1_ne
+# Loading work.cpu_reg1_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg4_ne
+# Loading work.cpu_reg4_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg2_ne
+# Loading work.cpu_reg2_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg3_ne
+# Loading work.cpu_reg3_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg5_ne
+# Loading work.cpu_reg5_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_ex
+# Loading work.cpu_ex
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_alu
+# Loading work.fu_alu
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_shifter
+# Loading work.fu_shifter
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_shifter_mask
+# Loading work.fu_shifter_mask
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.mul_top
+# Loading work.mul_top
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.mul_fsm
+# Loading work.mul_fsm
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.mul_decode
+# Loading work.mul_decode
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_csa34
+# Loading work.fu_csa34
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.mul_reg1_ne
+# Loading work.mul_reg1_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_mem
+# Loading work.cpu_mem
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_wb
+# Loading work.cpu_wb
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_wb_alignment
+# Loading work.cpu_wb_alignment
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.I_Cache
+# Loading work.I_Cache
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.dcache_system
+# Loading work.dcache_system
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.count
+# Loading work.count
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cacheDecide
+# Loading work.cacheDecide
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.hitrate
+# Loading work.hitrate
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.mem_ctrl
+# Loading work.mem_ctrl
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cache
+# Loading work.cache
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.memc
+# Loading work.memc
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.memv
+# Loading work.memv
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.memory
+# Loading work.memory
+# ** Warning: (vsim-3015) /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v(204): [PCDPC] - Port size (6 or 6) does not match connection size (1) for port 'IRQ'. The port definition is at: cpu_top.v(27).
+#         Region: /testbench/u_cpu_top
+# ** Warning: (vsim-3017) cpu_top.v(121): [TFMPC] - Too few port connections. Expected 22, found 16.
+#         Region: /testbench/u_cpu_top/u_cpu_core
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWDBUS'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWREN'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWRNUM'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRRNUM'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRRSEL'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRDBUS'.
+# ** Warning: (vsim-3015) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(291): [PCDPC] - Port size (8 or 8) does not match connection size (6) for port 'irq'. The port definition is at: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_if.v(25).
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuif
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(803): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_sign
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(803): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(811): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_type
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(811): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Too few port connections. Expected 8, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_a
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'irq'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'epc'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Too few port connections. Expected 8, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_b
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'irq'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'epc'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(837): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_rs
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(837): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(845): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_rt
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(845): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(462): [TFMPC] - Too few port connections. Expected 71, found 70.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuex
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_ex.v(372): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuex/u_ex2m_cp0_type
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_ex.v(372): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_mem.v(372): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpumem/u_m2wb_cp0_type
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_mem.v(372): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(540): [TFMPC] - Too few port connections. Expected 14, found 13.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuwb
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(540): [TFMPC] - Missing connection for port 'irqn'.
+# ** Warning: (vsim-3015) /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v(225): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'DataOut_test'. The port definition is at: dcache_system.v(5).
+#         Region: /testbench/dcache1
+add wave sim:/testbench/u_cpu_top/*
+add wave sim:/testbench/dcache1/*
+run -all
+### Loading internal memory (Code)###
+### Loading internal memory (InputData)###
+#       Execution Cycle =           0
+# 200ns :$monitor: wren=1 
+# 300ns :$monitor: wren=1 
+# 400ns :$monitor: wren=1 
+# 500ns :$monitor: wren=1 
+# 600ns :$monitor: wren=1 
+# 700ns :$monitor: wren=1 
+# 800ns :$monitor: wren=1 
+# 900ns :$monitor: wren=1 
+# 1000ns :$monitor: wren=1 
+# 1100ns :$monitor: wren=1 
+# 1200ns :$monitor: wren=1 
+# 1300ns :$monitor: wren=1 
+# 1400ns :$monitor: wren=1 
+# 1500ns :$monitor: wren=1 
+# 1600ns :$monitor: wren=1 
+# 1700ns :$monitor: wren=1 
+# 1800ns :$monitor: wren=1 
+# 1900ns :$monitor: wren=1 
+# 2000ns :$monitor: wren=1 
+# 2100ns :$monitor: wren=1 
+# 2200ns :$monitor: wren=1 
+# 2250ns :$monitor: wren=0 
+# 2550ns :$monitor: wren=1 
+# 2600ns :$monitor: wren=1 
+# 2650ns :$monitor: wren=0 
+# 2950ns :$monitor: wren=1 
+# 3000ns :$monitor: wren=0 
+# 3100ns :$monitor: wren=1 
+# 3200ns :$monitor: wren=1 
+# 3300ns :$monitor: wren=1 
+# 3400ns :$monitor: wren=1 
+# 3500ns :$monitor: wren=1 
+# 3600ns :$monitor: wren=1 
+# 3700ns :$monitor: wren=1 
+# 3800ns :$monitor: wren=1 
+# 3900ns :$monitor: wren=1 
+# 4000ns :$monitor: wren=1 
+# 4100ns :$monitor: wren=1 
+# 4200ns :$monitor: wren=1 
+# 4250ns :$monitor: wren=0 
+# 4550ns :$monitor: wren=1 
+# 4600ns :$monitor: wren=1 
+# 4650ns :$monitor: wren=0 
+# 4950ns :$monitor: wren=1 
+# 5000ns :$monitor: wren=0 
+# 5100ns :$monitor: wren=1 
+# 5200ns :$monitor: wren=1 
+# 5300ns :$monitor: wren=1 
+# 5400ns :$monitor: wren=1 
+# 5500ns :$monitor: wren=1 
+# 5550ns :$monitor: wren=0 
+# 5750ns :$monitor: wren=1 
+# 5800ns :$monitor: wren=1 
+# 5850ns :$monitor: wren=0 
+# 6050ns :$monitor: wren=1 
+# 6100ns :$monitor: wren=1 
+# 6200ns :$monitor: wren=1 
+# 6300ns :$monitor: wren=1 
+# 6400ns :$monitor: wren=1 
+# 6500ns :$monitor: wren=1 
+# 6600ns :$monitor: wren=1 
+# 6700ns :$monitor: wren=1 
+# 6750ns :$monitor: wren=0 
+# 7050ns :$monitor: wren=1 
+# 7100ns :$monitor: wren=1 
+# 7150ns :$monitor: wren=0 
+# 7450ns :$monitor: wren=1 
+# 7500ns :$monitor: wren=0 
+# 7600ns :$monitor: wren=1 
+# 7700ns :$monitor: wren=1 
+# 7800ns :$monitor: wren=1 
+# 7900ns :$monitor: wren=1 
+# 8000ns :$monitor: wren=1 
+# 8100ns :$monitor: wren=1 
+# 8200ns :$monitor: wren=1 
+# 8300ns :$monitor: wren=1 
+# 8400ns :$monitor: wren=1 
+# 8500ns :$monitor: wren=1 
+# 8600ns :$monitor: wren=1 
+# 8650ns :$monitor: wren=0 
+# 8950ns :$monitor: wren=1 
+# 9000ns :$monitor: wren=1 
+# 9050ns :$monitor: wren=0 
+# 9250ns :$monitor: wren=1 
+# 9300ns :$monitor: wren=0 
+# 9400ns :$monitor: wren=1 
+# 9500ns :$monitor: wren=1 
+# 9600ns :$monitor: wren=1 
+# 9700ns :$monitor: wren=1 
+# 9800ns :$monitor: wren=1 
+# 9850ns :$monitor: wren=0 
+# 10050ns :$monitor: wren=1 
+# 10100ns :$monitor: wren=1 
+# 10150ns :$monitor: wren=0 
+# 10350ns :$monitor: wren=1 
+# 10400ns :$monitor: wren=1 
+# 10500ns :$monitor: wren=1 
+# 10600ns :$monitor: wren=1 
+# 10700ns :$monitor: wren=1 
+# 10800ns :$monitor: wren=1 
+# 10900ns :$monitor: wren=1 
+# 11000ns :$monitor: wren=1 
+# 11050ns :$monitor: wren=0 
+# 11350ns :$monitor: wren=1 
+# 11400ns :$monitor: wren=1 
+# 11450ns :$monitor: wren=0 
+# 11750ns :$monitor: wren=1 
+# 11800ns :$monitor: wren=0 
+# 11900ns :$monitor: wren=1 
+# 12000ns :$monitor: wren=1 
+# 12100ns :$monitor: wren=1 
+# 12200ns :$monitor: wren=1 
+# 12300ns :$monitor: wren=1 
+# 12400ns :$monitor: wren=1 
+# 12500ns :$monitor: wren=1 
+# 12600ns :$monitor: wren=1 
+# 12700ns :$monitor: wren=1 
+# 12800ns :$monitor: wren=1 
+# 12900ns :$monitor: wren=1 
+# 12950ns :$monitor: wren=0 
+# 13250ns :$monitor: wren=1 
+# 13300ns :$monitor: wren=1 
+# 13350ns :$monitor: wren=0 
+# 13550ns :$monitor: wren=1 
+# 13600ns :$monitor: wren=0 
+# 13700ns :$monitor: wren=1 
+# 13800ns :$monitor: wren=1 
+# 13900ns :$monitor: wren=1 
+# 14000ns :$monitor: wren=1 
+# 14100ns :$monitor: wren=1 
+# 14200ns :$monitor: wren=1 
+# 14300ns :$monitor: wren=1 
+# 14400ns :$monitor: wren=1 
+# 14500ns :$monitor: wren=1 
+# 14600ns :$monitor: wren=1 
+# 14700ns :$monitor: wren=1 
+# 14750ns :$monitor: wren=0 
+# 15050ns :$monitor: wren=1 
+# 15100ns :$monitor: wren=1 
+# 15150ns :$monitor: wren=0 
+# 15450ns :$monitor: wren=1 
+# 15500ns :$monitor: wren=0 
+# 15600ns :$monitor: wren=1 
+# 15700ns :$monitor: wren=1 
+# 15800ns :$monitor: wren=1 
+# 15900ns :$monitor: wren=1 
+# 16000ns :$monitor: wren=1 
+# 16050ns :$monitor: wren=0 
+# 16250ns :$monitor: wren=1 
+# 16300ns :$monitor: wren=1 
+# 16350ns :$monitor: wren=0 
+# 16550ns :$monitor: wren=1 
+# 16600ns :$monitor: wren=1 
+# 16700ns :$monitor: wren=1 
+# 16800ns :$monitor: wren=1 
+# 16900ns :$monitor: wren=1 
+# 17000ns :$monitor: wren=1 
+# 17100ns :$monitor: wren=1 
+# 17200ns :$monitor: wren=1 
+# 17250ns :$monitor: wren=0 
+# 17550ns :$monitor: wren=1 
+# 17600ns :$monitor: wren=1 
+# 17650ns :$monitor: wren=0 
+# 17950ns :$monitor: wren=1 
+# 18000ns :$monitor: wren=0 
+# 18100ns :$monitor: wren=1 
+# 18200ns :$monitor: wren=1 
+# 18300ns :$monitor: wren=1 
+# 18400ns :$monitor: wren=1 
+# 18500ns :$monitor: wren=1 
+# 18600ns :$monitor: wren=1 
+# 18700ns :$monitor: wren=1 
+# 18800ns :$monitor: wren=1 
+# 18900ns :$monitor: wren=1 
+# 19000ns :$monitor: wren=1 
+# 19100ns :$monitor: wren=1 
+# 19150ns :$monitor: wren=0 
+# 19450ns :$monitor: wren=1 
+# 19500ns :$monitor: wren=1 
+# 19550ns :$monitor: wren=0 
+# 19750ns :$monitor: wren=1 
+# 19800ns :$monitor: wren=0 
+# 19900ns :$monitor: wren=1 
+# 20000ns :$monitor: wren=1 
+# 20100ns :$monitor: wren=1 
+# 20200ns :$monitor: wren=1 
+# 20300ns :$monitor: wren=1 
+# 20400ns :$monitor: wren=1 
+# 20500ns :$monitor: wren=1 
+# 20600ns :$monitor: wren=1 
+# 20700ns :$monitor: wren=1 
+# 20800ns :$monitor: wren=1 
+# 20900ns :$monitor: wren=1 
+# 20950ns :$monitor: wren=0 
+# 21250ns :$monitor: wren=1 
+# 21300ns :$monitor: wren=1 
+# 21350ns :$monitor: wren=0 
+# 21650ns :$monitor: wren=1 
+# 21700ns :$monitor: wren=0 
+# 21800ns :$monitor: wren=1 
+# 21900ns :$monitor: wren=1 
+# 22000ns :$monitor: wren=1 
+# 22100ns :$monitor: wren=1 
+# 22200ns :$monitor: wren=1 
+# 22300ns :$monitor: wren=1 
+# 22400ns :$monitor: wren=1 
+# 22500ns :$monitor: wren=1 
+# 22600ns :$monitor: wren=1 
+# 22700ns :$monitor: wren=1 
+# 22800ns :$monitor: wren=1 
+# 22850ns :$monitor: wren=0 
+# 23150ns :$monitor: wren=1 
+# 23200ns :$monitor: wren=1 
+# 23250ns :$monitor: wren=0 
+# 23450ns :$monitor: wren=1 
+# 23500ns :$monitor: wren=0 
+# 23600ns :$monitor: wren=1 
+# 23700ns :$monitor: wren=1 
+# 23800ns :$monitor: wren=1 
+# 23900ns :$monitor: wren=1 
+# 24000ns :$monitor: wren=1 
+# 24100ns :$monitor: wren=1 
+# 24200ns :$monitor: wren=1 
+# 24300ns :$monitor: wren=1 
+# 24400ns :$monitor: wren=1 
+# 24500ns :$monitor: wren=1 
+# 24600ns :$monitor: wren=1 
+# 24650ns :$monitor: wren=0 
+# 24950ns :$monitor: wren=1 
+# 25000ns :$monitor: wren=1 
+# 25050ns :$monitor: wren=0 
+# 25350ns :$monitor: wren=1 
+# 25400ns :$monitor: wren=0 
+# 25500ns :$monitor: wren=1 
+# 25600ns :$monitor: wren=1 
+# 25700ns :$monitor: wren=1 
+# 25800ns :$monitor: wren=1 
+# 25900ns :$monitor: wren=1 
+# 25950ns :$monitor: wren=0 
+# 26150ns :$monitor: wren=1 
+# 26200ns :$monitor: wren=1 
+# 26250ns :$monitor: wren=0 
+# 26450ns :$monitor: wren=1 
+# 26500ns :$monitor: wren=1 
+# 26600ns :$monitor: wren=1 
+# 26700ns :$monitor: wren=1 
+# 26800ns :$monitor: wren=1 
+# 26900ns :$monitor: wren=1 
+# 27000ns :$monitor: wren=1 
+# 27100ns :$monitor: wren=1 
+# 27150ns :$monitor: wren=0 
+# 27450ns :$monitor: wren=1 
+# 27500ns :$monitor: wren=1 
+# 27550ns :$monitor: wren=0 
+# 27850ns :$monitor: wren=1 
+# 27900ns :$monitor: wren=0 
+# 28000ns :$monitor: wren=1 
+# 28100ns :$monitor: wren=1 
+# 28200ns :$monitor: wren=1 
+# 28300ns :$monitor: wren=1 
+# 28400ns :$monitor: wren=1 
+# 28500ns :$monitor: wren=1 
+# 28600ns :$monitor: wren=1 
+# 28700ns :$monitor: wren=1 
+# 28800ns :$monitor: wren=1 
+# 28900ns :$monitor: wren=1 
+# 29000ns :$monitor: wren=1 
+# 29050ns :$monitor: wren=0 
+# 29350ns :$monitor: wren=1 
+# 29400ns :$monitor: wren=1 
+# 29450ns :$monitor: wren=0 
+# 29650ns :$monitor: wren=1 
+# 29700ns :$monitor: wren=0 
+# 29800ns :$monitor: wren=1 
+# 29900ns :$monitor: wren=1 
+# 30000ns :$monitor: wren=1 
+# 30100ns :$monitor: wren=1 
+# ===========================================
+#       Program terminated normally
+# ===========================================
+#       Total cache read/write conditions =   36
+#       Hits =   10
+# ===========================================
+# Break in Module testbench at /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v line 610
+quit -sim
+# Compile of boot_state.v was successful.
+# Compile of branch_unit.v was successful.
+# Compile of cache.v was successful.
+# Compile of change_signal.v was successful.
+# Compile of clkrst.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of count.v was successful.
+# Compile of cpu_core.v was successful.
+# Compile of cpu_decode5to32.v was successful.
+# Compile of cpu_ex.v was successful.
+# Compile of cpu_id.v was successful.
+# Compile of cpu_if.v was successful.
+# Compile of cpu_mem.v was successful.
+# Compile of cpu_reg1_ne.v was successful.
+# Compile of cpu_reg2_ne.v was successful.
+# Compile of cpu_reg3_ne.v was successful.
+# Compile of cpu_reg4_ne.v was successful.
+# Compile of cpu_reg5_ne.v was successful.
+# Compile of cpu_reg8_ne.v was successful.
+# Compile of cpu_reg8x4_ne.v was successful.
+# Compile of cpu_reg8x4_ne_cp.v was successful.
+# Compile of cpu_reg32_ne.v was successful.
+# Compile of cpu_reg32_ne_ex.v was successful.
+# Compile of cpu_regbank.v was successful.
+# Compile of cpu_top.v was successful.
+# Compile of cpu_wb.v was successful.
+# Compile of cpu_wb_alignment.v was successful.
+# Compile of dcache_system.v was successful.
+# Compile of decision.v was successful.
+# Compile of dff.v was successful.
+# Compile of dff_en.v was successful.
+# Compile of forward_unit.v was successful.
+# Compile of fu_alu.v was successful.
+# Compile of fu_cla4.v was successful.
+# Compile of fu_cla4v.v was successful.
+# Compile of fu_csa8.v was successful.
+# Compile of fu_csa8v.v was successful.
+# Compile of fu_csa16.v was successful.
+# Compile of fu_csa16v.v was successful.
+# Compile of fu_csa32.v was successful.
+# Compile of fu_csa34.v was successful.
+# Compile of fu_shifter.v was successful.
+# Compile of fu_shifter_mask.v was successful.
+# Compile of hazard_det_unit.v was successful.
+# Compile of interrupt_controller.v was successful.
+# Compile of mem_ctrl.v was successful.
+# Compile of memc.v was successful.
+# Compile of memory.v was successful.
+# Compile of memv.v was successful.
+# Compile of mul_decode.v was successful.
+# Compile of mul_fsm.v was successful.
+# Compile of mul_reg1_ne.v was successful.
+# Compile of mul_top.v was successful.
+# Compile of testbench.v was successful.
+# Compile of timescale.v was successful.
+# Compile of hitrate.v was successful.
+# Compile of I_Cache.v was successful.
+# 57 compiles, 0 failed with no errors. 
+vsim -novopt work.testbench
+# vsim -novopt work.testbench 
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.testbench
+# Loading work.testbench
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_top
+# Loading work.cpu_top
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_core
+# Loading work.cpu_core
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.interrupt_controller
+# Loading work.interrupt_controller
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_if
+# Loading work.cpu_if
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.boot_state
+# Loading work.boot_state
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg32_ne
+# Loading work.cpu_reg32_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg32_ne_ex
+# Loading work.cpu_reg32_ne_ex
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_id
+# Loading work.cpu_id
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.control_unit
+# Loading work.control_unit
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.hazard_det_unit
+# Loading work.hazard_det_unit
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_regbank
+# Loading work.cpu_regbank
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_decode5to32
+# Loading work.cpu_decode5to32
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg8x4_ne
+# Loading work.cpu_reg8x4_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg8_ne
+# Loading work.cpu_reg8_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg8x4_ne_cp
+# Loading work.cpu_reg8x4_ne_cp
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.forward_unit
+# Loading work.forward_unit
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_csa32
+# Loading work.fu_csa32
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_csa16
+# Loading work.fu_csa16
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_csa8
+# Loading work.fu_csa8
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_cla4
+# Loading work.fu_cla4
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_csa16v
+# Loading work.fu_csa16v
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_csa8v
+# Loading work.fu_csa8v
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_cla4v
+# Loading work.fu_cla4v
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.branch_unit
+# Loading work.branch_unit
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg1_ne
+# Loading work.cpu_reg1_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg4_ne
+# Loading work.cpu_reg4_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg2_ne
+# Loading work.cpu_reg2_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg3_ne
+# Loading work.cpu_reg3_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg5_ne
+# Loading work.cpu_reg5_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_ex
+# Loading work.cpu_ex
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_alu
+# Loading work.fu_alu
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_shifter
+# Loading work.fu_shifter
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_shifter_mask
+# Loading work.fu_shifter_mask
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.mul_top
+# Loading work.mul_top
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.mul_fsm
+# Loading work.mul_fsm
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.mul_decode
+# Loading work.mul_decode
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_csa34
+# Loading work.fu_csa34
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.mul_reg1_ne
+# Loading work.mul_reg1_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_mem
+# Loading work.cpu_mem
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_wb
+# Loading work.cpu_wb
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_wb_alignment
+# Loading work.cpu_wb_alignment
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.I_Cache
+# Loading work.I_Cache
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.dcache_system
+# Loading work.dcache_system
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.count
+# Loading work.count
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cacheDecide
+# Loading work.cacheDecide
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.hitrate
+# Loading work.hitrate
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.mem_ctrl
+# Loading work.mem_ctrl
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cache
+# Loading work.cache
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.memc
+# Loading work.memc
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.memv
+# Loading work.memv
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.memory
+# Loading work.memory
+# ** Warning: (vsim-3015) /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v(204): [PCDPC] - Port size (6 or 6) does not match connection size (1) for port 'IRQ'. The port definition is at: cpu_top.v(27).
+#         Region: /testbench/u_cpu_top
+# ** Warning: (vsim-3017) cpu_top.v(121): [TFMPC] - Too few port connections. Expected 22, found 16.
+#         Region: /testbench/u_cpu_top/u_cpu_core
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWDBUS'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWREN'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWRNUM'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRRNUM'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRRSEL'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRDBUS'.
+# ** Warning: (vsim-3015) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(291): [PCDPC] - Port size (8 or 8) does not match connection size (6) for port 'irq'. The port definition is at: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_if.v(25).
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuif
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(803): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_sign
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(803): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(811): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_type
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(811): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Too few port connections. Expected 8, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_a
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'irq'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'epc'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Too few port connections. Expected 8, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_b
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'irq'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'epc'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(837): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_rs
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(837): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(845): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_rt
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(845): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(462): [TFMPC] - Too few port connections. Expected 71, found 70.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuex
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_ex.v(372): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuex/u_ex2m_cp0_type
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_ex.v(372): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_mem.v(372): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpumem/u_m2wb_cp0_type
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_mem.v(372): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(540): [TFMPC] - Too few port connections. Expected 14, found 13.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuwb
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(540): [TFMPC] - Missing connection for port 'irqn'.
+# ** Warning: (vsim-3015) /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v(225): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'DataOut_test'. The port definition is at: dcache_system.v(5).
+#         Region: /testbench/dcache1
+add wave sim:/testbench/u_cpu_top/*
+add wave sim:/testbench/dcache1/*
+run -all
+### Loading internal memory (Code)###
+### Loading internal memory (InputData)###
+#       Execution Cycle =           0
+# 200ns :$monitor: wren=1 
+# 250ns :$monitor: wren=0 
+# 350ns :$monitor: wren=1 
+# 400ns :$monitor: wren=1 
+# 500ns :$monitor: wren=1 
+# 600ns :$monitor: wren=1 
+# 700ns :$monitor: wren=1 
+# 750ns :$monitor: wren=0 
+# 850ns :$monitor: wren=1 
+# 900ns :$monitor: wren=1 
+# 1000ns :$monitor: wren=1 
+# 1100ns :$monitor: wren=0 
+# ===========================================
+#       Program terminated normally
+# ===========================================
+#       Total cache read/write conditions =    0
+#       Hits =    0
+# ===========================================
+# Break in Module testbench at /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v line 610
+quit -sim
+vsim -novopt work.testbench
+# vsim -novopt work.testbench 
+# Loading work.testbench
+# Loading work.cpu_top
+# Loading work.cpu_core
+# Loading work.interrupt_controller
+# Loading work.cpu_if
+# Loading work.boot_state
+# Loading work.cpu_reg32_ne
+# Loading work.cpu_reg32_ne_ex
+# Loading work.cpu_id
+# Loading work.control_unit
+# Loading work.hazard_det_unit
+# Loading work.cpu_regbank
+# Loading work.cpu_decode5to32
+# Loading work.cpu_reg8x4_ne
+# Loading work.cpu_reg8_ne
+# Loading work.cpu_reg8x4_ne_cp
+# Loading work.forward_unit
+# Loading work.fu_csa32
+# Loading work.fu_csa16
+# Loading work.fu_csa8
+# Loading work.fu_cla4
+# Loading work.fu_csa16v
+# Loading work.fu_csa8v
+# Loading work.fu_cla4v
+# Loading work.branch_unit
+# Loading work.cpu_reg1_ne
+# Loading work.cpu_reg4_ne
+# Loading work.cpu_reg2_ne
+# Loading work.cpu_reg3_ne
+# Loading work.cpu_reg5_ne
+# Loading work.cpu_ex
+# Loading work.fu_alu
+# Loading work.fu_shifter
+# Loading work.fu_shifter_mask
+# Loading work.mul_top
+# Loading work.mul_fsm
+# Loading work.mul_decode
+# Loading work.fu_csa34
+# Loading work.mul_reg1_ne
+# Loading work.cpu_mem
+# Loading work.cpu_wb
+# Loading work.cpu_wb_alignment
+# Loading work.I_Cache
+# Loading work.dcache_system
+# Loading work.count
+# Loading work.cacheDecide
+# Loading work.hitrate
+# Loading work.mem_ctrl
+# Loading work.cache
+# Loading work.memc
+# Loading work.memv
+# Loading work.memory
+# ** Warning: (vsim-3015) /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v(204): [PCDPC] - Port size (6 or 6) does not match connection size (1) for port 'IRQ'. The port definition is at: cpu_top.v(27).
+#         Region: /testbench/u_cpu_top
+# ** Warning: (vsim-3017) cpu_top.v(121): [TFMPC] - Too few port connections. Expected 22, found 16.
+#         Region: /testbench/u_cpu_top/u_cpu_core
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWDBUS'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWREN'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWRNUM'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRRNUM'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRRSEL'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRDBUS'.
+# ** Warning: (vsim-3015) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(291): [PCDPC] - Port size (8 or 8) does not match connection size (6) for port 'irq'. The port definition is at: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_if.v(25).
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuif
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(803): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_sign
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(803): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(811): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_type
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(811): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Too few port connections. Expected 8, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_a
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'irq'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'epc'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Too few port connections. Expected 8, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_b
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'irq'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'epc'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(837): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_rs
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(837): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(845): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_rt
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(845): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(462): [TFMPC] - Too few port connections. Expected 71, found 70.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuex
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_ex.v(372): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuex/u_ex2m_cp0_type
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_ex.v(372): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_mem.v(372): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpumem/u_m2wb_cp0_type
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_mem.v(372): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(540): [TFMPC] - Too few port connections. Expected 14, found 13.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuwb
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(540): [TFMPC] - Missing connection for port 'irqn'.
+# ** Warning: (vsim-3015) /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v(225): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'DataOut_test'. The port definition is at: dcache_system.v(5).
+#         Region: /testbench/dcache1
+add wave sim:/testbench/u_cpu_top/*
+add wave sim:/testbench/u_cpu_top/u_cpu_core/*
+add wave sim:/testbench/dcache1/*
+run -all
+### Loading internal memory (Code)###
+### Loading internal memory (InputData)###
+#       Execution Cycle =           0
+# 200ns :$monitor: wren=1 
+# 250ns :$monitor: wren=0 
+# 350ns :$monitor: wren=1 
+# 400ns :$monitor: wren=1 
+# 500ns :$monitor: wren=1 
+# 600ns :$monitor: wren=1 
+# 700ns :$monitor: wren=1 
+# 750ns :$monitor: wren=0 
+# 850ns :$monitor: wren=1 
+# 900ns :$monitor: wren=1 
+# 1000ns :$monitor: wren=1 
+# 1100ns :$monitor: wren=0 
+# ===========================================
+#       Program terminated normally
+# ===========================================
+#       Total cache read/write conditions =    0
+#       Hits =    0
+# ===========================================
+# Break in Module testbench at /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v line 610
+quit -sim
+# Compile of cpu_core.v was successful.
+vsim -novopt work.testbench
+# vsim -novopt work.testbench 
+# Loading work.testbench
+# Loading work.cpu_top
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_core
+# Loading work.cpu_core
+# Loading work.interrupt_controller
+# Loading work.cpu_if
+# Loading work.boot_state
+# Loading work.cpu_reg32_ne
+# Loading work.cpu_reg32_ne_ex
+# Loading work.cpu_id
+# Loading work.control_unit
+# Loading work.hazard_det_unit
+# Loading work.cpu_regbank
+# Loading work.cpu_decode5to32
+# Loading work.cpu_reg8x4_ne
+# Loading work.cpu_reg8_ne
+# Loading work.cpu_reg8x4_ne_cp
+# Loading work.forward_unit
+# Loading work.fu_csa32
+# Loading work.fu_csa16
+# Loading work.fu_csa8
+# Loading work.fu_cla4
+# Loading work.fu_csa16v
+# Loading work.fu_csa8v
+# Loading work.fu_cla4v
+# Loading work.branch_unit
+# Loading work.cpu_reg1_ne
+# Loading work.cpu_reg4_ne
+# Loading work.cpu_reg2_ne
+# Loading work.cpu_reg3_ne
+# Loading work.cpu_reg5_ne
+# Loading work.cpu_ex
+# Loading work.fu_alu
+# Loading work.fu_shifter
+# Loading work.fu_shifter_mask
+# Loading work.mul_top
+# Loading work.mul_fsm
+# Loading work.mul_decode
+# Loading work.fu_csa34
+# Loading work.mul_reg1_ne
+# Loading work.cpu_mem
+# Loading work.cpu_wb
+# Loading work.cpu_wb_alignment
+# Loading work.I_Cache
+# Loading work.dcache_system
+# Loading work.count
+# Loading work.cacheDecide
+# Loading work.hitrate
+# Loading work.mem_ctrl
+# Loading work.cache
+# Loading work.memc
+# Loading work.memv
+# Loading work.memory
+# ** Warning: (vsim-3015) /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v(204): [PCDPC] - Port size (6 or 6) does not match connection size (1) for port 'IRQ'. The port definition is at: cpu_top.v(27).
+#         Region: /testbench/u_cpu_top
+# ** Warning: (vsim-3017) cpu_top.v(121): [TFMPC] - Too few port connections. Expected 22, found 16.
+#         Region: /testbench/u_cpu_top/u_cpu_core
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWDBUS'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWREN'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWRNUM'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRRNUM'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRRSEL'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRDBUS'.
+# ** Warning: (vsim-3015) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(291): [PCDPC] - Port size (8 or 8) does not match connection size (6) for port 'irq'. The port definition is at: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_if.v(25).
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuif
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(803): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_sign
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(803): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(811): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_type
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(811): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Too few port connections. Expected 8, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_a
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'irq'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'epc'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Too few port connections. Expected 8, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_b
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'irq'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'epc'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(837): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_rs
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(837): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(845): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_rt
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(845): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(462): [TFMPC] - Too few port connections. Expected 71, found 70.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuex
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_ex.v(372): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuex/u_ex2m_cp0_type
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_ex.v(372): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_mem.v(372): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpumem/u_m2wb_cp0_type
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_mem.v(372): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(540): [TFMPC] - Too few port connections. Expected 14, found 13.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuwb
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(540): [TFMPC] - Missing connection for port 'irqn'.
+# ** Warning: (vsim-3015) /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v(225): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'DataOut_test'. The port definition is at: dcache_system.v(5).
+#         Region: /testbench/dcache1
+add wave sim:/testbench/u_cpu_top/*
+add wave sim:/testbench/u_cpu_top/u_cpu_core/*
+add wave sim:/testbench/dcache1/*
+run -all
+### Loading internal memory (Code)###
+### Loading internal memory (InputData)###
+#       Execution Cycle =           0
+# 200ns :$monitor: wren=1 
+# 300ns :$monitor: wren=1 
+# 400ns :$monitor: wren=1 
+# 500ns :$monitor: wren=1 
+# 600ns :$monitor: wren=1 
+# 700ns :$monitor: wren=1 
+# 800ns :$monitor: wren=1 
+# 900ns :$monitor: wren=1 
+# 1000ns :$monitor: wren=1 
+# 1100ns :$monitor: wren=1 
+# 1200ns :$monitor: wren=1 
+# 1300ns :$monitor: wren=1 
+# 1400ns :$monitor: wren=1 
+# 1500ns :$monitor: wren=1 
+# 1600ns :$monitor: wren=1 
+# 1700ns :$monitor: wren=1 
+# 1800ns :$monitor: wren=1 
+# 1900ns :$monitor: wren=1 
+# 2000ns :$monitor: wren=1 
+# 2100ns :$monitor: wren=1 
+# 2200ns :$monitor: wren=1 
+# 2250ns :$monitor: wren=0 
+# 2550ns :$monitor: wren=1 
+# 2600ns :$monitor: wren=1 
+# 2650ns :$monitor: wren=0 
+# 2950ns :$monitor: wren=1 
+# 3000ns :$monitor: wren=0 
+# 3100ns :$monitor: wren=1 
+# 3200ns :$monitor: wren=1 
+# 3300ns :$monitor: wren=1 
+# 3400ns :$monitor: wren=1 
+# 3500ns :$monitor: wren=1 
+# 3600ns :$monitor: wren=1 
+# 3700ns :$monitor: wren=1 
+# 3800ns :$monitor: wren=1 
+# 3900ns :$monitor: wren=1 
+# 4000ns :$monitor: wren=1 
+# 4100ns :$monitor: wren=1 
+# 4200ns :$monitor: wren=1 
+# 4250ns :$monitor: wren=0 
+# 4550ns :$monitor: wren=1 
+# 4600ns :$monitor: wren=1 
+# 4650ns :$monitor: wren=0 
+# 4950ns :$monitor: wren=1 
+# 5000ns :$monitor: wren=0 
+# 5100ns :$monitor: wren=1 
+# 5200ns :$monitor: wren=1 
+# 5300ns :$monitor: wren=1 
+# 5400ns :$monitor: wren=1 
+# 5500ns :$monitor: wren=1 
+# 5550ns :$monitor: wren=0 
+# 5750ns :$monitor: wren=1 
+# 5800ns :$monitor: wren=1 
+# 5850ns :$monitor: wren=0 
+# 6050ns :$monitor: wren=1 
+# 6100ns :$monitor: wren=1 
+# 6200ns :$monitor: wren=1 
+# 6300ns :$monitor: wren=1 
+# 6400ns :$monitor: wren=1 
+# 6500ns :$monitor: wren=1 
+# 6600ns :$monitor: wren=1 
+# 6700ns :$monitor: wren=1 
+# 6750ns :$monitor: wren=0 
+# 7050ns :$monitor: wren=1 
+# 7100ns :$monitor: wren=1 
+# 7150ns :$monitor: wren=0 
+# 7450ns :$monitor: wren=1 
+# 7500ns :$monitor: wren=0 
+# 7600ns :$monitor: wren=1 
+# 7700ns :$monitor: wren=1 
+# 7800ns :$monitor: wren=1 
+# 7900ns :$monitor: wren=1 
+# 8000ns :$monitor: wren=1 
+# 8100ns :$monitor: wren=1 
+# 8200ns :$monitor: wren=1 
+# 8300ns :$monitor: wren=1 
+# 8400ns :$monitor: wren=1 
+# 8500ns :$monitor: wren=1 
+# 8600ns :$monitor: wren=1 
+# 8650ns :$monitor: wren=0 
+# 8950ns :$monitor: wren=1 
+# 9000ns :$monitor: wren=1 
+# 9050ns :$monitor: wren=0 
+# 9250ns :$monitor: wren=1 
+# 9300ns :$monitor: wren=0 
+# 9400ns :$monitor: wren=1 
+# 9500ns :$monitor: wren=1 
+# 9600ns :$monitor: wren=1 
+# 9700ns :$monitor: wren=1 
+# 9800ns :$monitor: wren=1 
+# 9850ns :$monitor: wren=0 
+# 10050ns :$monitor: wren=1 
+# 10100ns :$monitor: wren=1 
+# 10150ns :$monitor: wren=0 
+# 10350ns :$monitor: wren=1 
+# 10400ns :$monitor: wren=1 
+# 10500ns :$monitor: wren=1 
+# 10600ns :$monitor: wren=1 
+# 10700ns :$monitor: wren=1 
+# 10800ns :$monitor: wren=1 
+# 10900ns :$monitor: wren=1 
+# 11000ns :$monitor: wren=1 
+# 11050ns :$monitor: wren=0 
+# 11350ns :$monitor: wren=1 
+# 11400ns :$monitor: wren=1 
+# 11450ns :$monitor: wren=0 
+# 11750ns :$monitor: wren=1 
+# 11800ns :$monitor: wren=0 
+# 11900ns :$monitor: wren=1 
+# 12000ns :$monitor: wren=1 
+# 12100ns :$monitor: wren=1 
+# 12200ns :$monitor: wren=1 
+# 12300ns :$monitor: wren=1 
+# 12400ns :$monitor: wren=1 
+# 12500ns :$monitor: wren=1 
+# 12600ns :$monitor: wren=1 
+# 12700ns :$monitor: wren=1 
+# 12800ns :$monitor: wren=1 
+# 12900ns :$monitor: wren=1 
+# 12950ns :$monitor: wren=0 
+# 13250ns :$monitor: wren=1 
+# 13300ns :$monitor: wren=1 
+# 13350ns :$monitor: wren=0 
+# 13550ns :$monitor: wren=1 
+# 13600ns :$monitor: wren=0 
+# 13700ns :$monitor: wren=1 
+# 13800ns :$monitor: wren=1 
+# 13900ns :$monitor: wren=1 
+# 14000ns :$monitor: wren=1 
+# 14100ns :$monitor: wren=1 
+# 14200ns :$monitor: wren=1 
+# 14300ns :$monitor: wren=1 
+# 14400ns :$monitor: wren=1 
+# 14500ns :$monitor: wren=1 
+# 14600ns :$monitor: wren=1 
+# 14700ns :$monitor: wren=1 
+# 14750ns :$monitor: wren=0 
+# 15050ns :$monitor: wren=1 
+# 15100ns :$monitor: wren=1 
+# 15150ns :$monitor: wren=0 
+# 15450ns :$monitor: wren=1 
+# 15500ns :$monitor: wren=0 
+# 15600ns :$monitor: wren=1 
+# 15700ns :$monitor: wren=1 
+# 15800ns :$monitor: wren=1 
+# 15900ns :$monitor: wren=1 
+# 16000ns :$monitor: wren=1 
+# 16050ns :$monitor: wren=0 
+# 16250ns :$monitor: wren=1 
+# 16300ns :$monitor: wren=1 
+# 16350ns :$monitor: wren=0 
+# 16550ns :$monitor: wren=1 
+# 16600ns :$monitor: wren=1 
+# 16700ns :$monitor: wren=1 
+# 16800ns :$monitor: wren=1 
+# 16900ns :$monitor: wren=1 
+# 17000ns :$monitor: wren=1 
+# 17100ns :$monitor: wren=1 
+# 17200ns :$monitor: wren=1 
+# 17250ns :$monitor: wren=0 
+# 17550ns :$monitor: wren=1 
+# 17600ns :$monitor: wren=1 
+# 17650ns :$monitor: wren=0 
+# 17950ns :$monitor: wren=1 
+# 18000ns :$monitor: wren=0 
+# 18100ns :$monitor: wren=1 
+# 18200ns :$monitor: wren=1 
+# 18300ns :$monitor: wren=1 
+# 18400ns :$monitor: wren=1 
+# 18500ns :$monitor: wren=1 
+# 18600ns :$monitor: wren=1 
+# 18700ns :$monitor: wren=1 
+# 18800ns :$monitor: wren=1 
+# 18900ns :$monitor: wren=1 
+# 19000ns :$monitor: wren=1 
+# 19100ns :$monitor: wren=1 
+# 19150ns :$monitor: wren=0 
+# 19450ns :$monitor: wren=1 
+# 19500ns :$monitor: wren=1 
+# 19550ns :$monitor: wren=0 
+# 19750ns :$monitor: wren=1 
+# 19800ns :$monitor: wren=0 
+# 19900ns :$monitor: wren=1 
+# 20000ns :$monitor: wren=1 
+# 20100ns :$monitor: wren=1 
+# 20200ns :$monitor: wren=1 
+# 20300ns :$monitor: wren=1 
+# 20400ns :$monitor: wren=1 
+# 20500ns :$monitor: wren=1 
+# 20600ns :$monitor: wren=1 
+# 20700ns :$monitor: wren=1 
+# 20800ns :$monitor: wren=1 
+# 20900ns :$monitor: wren=1 
+# 20950ns :$monitor: wren=0 
+# 21250ns :$monitor: wren=1 
+# 21300ns :$monitor: wren=1 
+# 21350ns :$monitor: wren=0 
+# 21650ns :$monitor: wren=1 
+# 21700ns :$monitor: wren=0 
+# 21800ns :$monitor: wren=1 
+# 21900ns :$monitor: wren=1 
+# 22000ns :$monitor: wren=1 
+# 22100ns :$monitor: wren=1 
+# 22200ns :$monitor: wren=1 
+# 22300ns :$monitor: wren=1 
+# 22400ns :$monitor: wren=1 
+# 22500ns :$monitor: wren=1 
+# 22600ns :$monitor: wren=1 
+# 22700ns :$monitor: wren=1 
+# 22800ns :$monitor: wren=1 
+# 22850ns :$monitor: wren=0 
+# 23150ns :$monitor: wren=1 
+# 23200ns :$monitor: wren=1 
+# 23250ns :$monitor: wren=0 
+# 23450ns :$monitor: wren=1 
+# 23500ns :$monitor: wren=0 
+# 23600ns :$monitor: wren=1 
+# 23700ns :$monitor: wren=1 
+# 23800ns :$monitor: wren=1 
+# 23900ns :$monitor: wren=1 
+# 24000ns :$monitor: wren=1 
+# 24100ns :$monitor: wren=1 
+# 24200ns :$monitor: wren=1 
+# 24300ns :$monitor: wren=1 
+# 24400ns :$monitor: wren=1 
+# 24500ns :$monitor: wren=1 
+# 24600ns :$monitor: wren=1 
+# 24650ns :$monitor: wren=0 
+# 24950ns :$monitor: wren=1 
+# 25000ns :$monitor: wren=1 
+# 25050ns :$monitor: wren=0 
+# 25350ns :$monitor: wren=1 
+# 25400ns :$monitor: wren=0 
+# 25500ns :$monitor: wren=1 
+# 25600ns :$monitor: wren=1 
+# 25700ns :$monitor: wren=1 
+# 25800ns :$monitor: wren=1 
+# 25900ns :$monitor: wren=1 
+# 25950ns :$monitor: wren=0 
+# 26150ns :$monitor: wren=1 
+# 26200ns :$monitor: wren=1 
+# 26250ns :$monitor: wren=0 
+# 26450ns :$monitor: wren=1 
+# 26500ns :$monitor: wren=1 
+# 26600ns :$monitor: wren=1 
+# 26700ns :$monitor: wren=1 
+# 26800ns :$monitor: wren=1 
+# 26900ns :$monitor: wren=1 
+# 27000ns :$monitor: wren=1 
+# 27100ns :$monitor: wren=1 
+# 27150ns :$monitor: wren=0 
+# 27450ns :$monitor: wren=1 
+# 27500ns :$monitor: wren=1 
+# 27550ns :$monitor: wren=0 
+# 27850ns :$monitor: wren=1 
+# 27900ns :$monitor: wren=0 
+# 28000ns :$monitor: wren=1 
+# 28100ns :$monitor: wren=1 
+# 28200ns :$monitor: wren=1 
+# 28300ns :$monitor: wren=1 
+# 28400ns :$monitor: wren=1 
+# 28500ns :$monitor: wren=1 
+# 28600ns :$monitor: wren=1 
+# 28700ns :$monitor: wren=1 
+# 28800ns :$monitor: wren=1 
+# 28900ns :$monitor: wren=1 
+# 29000ns :$monitor: wren=1 
+# 29050ns :$monitor: wren=0 
+# 29350ns :$monitor: wren=1 
+# 29400ns :$monitor: wren=1 
+# 29450ns :$monitor: wren=0 
+# 29650ns :$monitor: wren=1 
+# 29700ns :$monitor: wren=0 
+# 29800ns :$monitor: wren=1 
+# 29900ns :$monitor: wren=1 
+# 30000ns :$monitor: wren=1 
+# 30100ns :$monitor: wren=1 
+# ===========================================
+#       Program terminated normally
+# ===========================================
+#       Total cache read/write conditions =   36
+#       Hits =   10
+# ===========================================
+# Break in Module testbench at /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v line 610
+quit -sim
+vsim -novopt work.testbench
+# vsim -novopt work.testbench 
+# Loading work.testbench
+# Loading work.cpu_top
+# Loading work.cpu_core
+# Loading work.interrupt_controller
+# Loading work.cpu_if
+# Loading work.boot_state
+# Loading work.cpu_reg32_ne
+# Loading work.cpu_reg32_ne_ex
+# Loading work.cpu_id
+# Loading work.control_unit
+# Loading work.hazard_det_unit
+# Loading work.cpu_regbank
+# Loading work.cpu_decode5to32
+# Loading work.cpu_reg8x4_ne
+# Loading work.cpu_reg8_ne
+# Loading work.cpu_reg8x4_ne_cp
+# Loading work.forward_unit
+# Loading work.fu_csa32
+# Loading work.fu_csa16
+# Loading work.fu_csa8
+# Loading work.fu_cla4
+# Loading work.fu_csa16v
+# Loading work.fu_csa8v
+# Loading work.fu_cla4v
+# Loading work.branch_unit
+# Loading work.cpu_reg1_ne
+# Loading work.cpu_reg4_ne
+# Loading work.cpu_reg2_ne
+# Loading work.cpu_reg3_ne
+# Loading work.cpu_reg5_ne
+# Loading work.cpu_ex
+# Loading work.fu_alu
+# Loading work.fu_shifter
+# Loading work.fu_shifter_mask
+# Loading work.mul_top
+# Loading work.mul_fsm
+# Loading work.mul_decode
+# Loading work.fu_csa34
+# Loading work.mul_reg1_ne
+# Loading work.cpu_mem
+# Loading work.cpu_wb
+# Loading work.cpu_wb_alignment
+# Loading work.I_Cache
+# Loading work.dcache_system
+# Loading work.count
+# Loading work.cacheDecide
+# Loading work.hitrate
+# Loading work.mem_ctrl
+# Loading work.cache
+# Loading work.memc
+# Loading work.memv
+# Loading work.memory
+# ** Warning: (vsim-3015) /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v(204): [PCDPC] - Port size (6 or 6) does not match connection size (1) for port 'IRQ'. The port definition is at: cpu_top.v(27).
+#         Region: /testbench/u_cpu_top
+# ** Warning: (vsim-3017) cpu_top.v(121): [TFMPC] - Too few port connections. Expected 22, found 16.
+#         Region: /testbench/u_cpu_top/u_cpu_core
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWDBUS'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWREN'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWRNUM'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRRNUM'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRRSEL'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRDBUS'.
+# ** Warning: (vsim-3015) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(291): [PCDPC] - Port size (8 or 8) does not match connection size (6) for port 'irq'. The port definition is at: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_if.v(25).
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuif
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(803): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_sign
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(803): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(811): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_type
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(811): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Too few port connections. Expected 8, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_a
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'irq'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'epc'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Too few port connections. Expected 8, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_b
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'irq'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'epc'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(837): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_rs
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(837): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(845): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_rt
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(845): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(462): [TFMPC] - Too few port connections. Expected 71, found 70.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuex
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_ex.v(372): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuex/u_ex2m_cp0_type
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_ex.v(372): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_mem.v(372): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpumem/u_m2wb_cp0_type
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_mem.v(372): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(540): [TFMPC] - Too few port connections. Expected 14, found 13.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuwb
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(540): [TFMPC] - Missing connection for port 'irqn'.
+# ** Warning: (vsim-3015) /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v(225): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'DataOut_test'. The port definition is at: dcache_system.v(5).
+#         Region: /testbench/dcache1
+add wave sim:/testbench/u_cpu_top/u_cpu_core/*
+add wave sim:/testbench/u_cpu_top/u_cpu_core/u_cpuex/*
+add wave sim:/testbench/dcache1/*
+run -all
+### Loading internal memory (Code)###
+### Loading internal memory (InputData)###
+#       Execution Cycle =           0
+# 200ns :$monitor: wren=1 
+# 300ns :$monitor: wren=1 
+# 400ns :$monitor: wren=1 
+# 500ns :$monitor: wren=1 
+# 600ns :$monitor: wren=1 
+# 700ns :$monitor: wren=1 
+# 800ns :$monitor: wren=1 
+# 900ns :$monitor: wren=1 
+# 1000ns :$monitor: wren=1 
+# 1100ns :$monitor: wren=1 
+# 1200ns :$monitor: wren=1 
+# 1300ns :$monitor: wren=1 
+# 1400ns :$monitor: wren=1 
+# 1500ns :$monitor: wren=1 
+# 1600ns :$monitor: wren=1 
+# 1700ns :$monitor: wren=1 
+# 1800ns :$monitor: wren=1 
+# 1900ns :$monitor: wren=1 
+# 2000ns :$monitor: wren=1 
+# 2100ns :$monitor: wren=1 
+# 2200ns :$monitor: wren=1 
+# 2250ns :$monitor: wren=0 
+# 2550ns :$monitor: wren=1 
+# 2600ns :$monitor: wren=1 
+# 2650ns :$monitor: wren=0 
+# 2950ns :$monitor: wren=1 
+# 3000ns :$monitor: wren=0 
+# 3100ns :$monitor: wren=1 
+# 3200ns :$monitor: wren=1 
+# 3300ns :$monitor: wren=1 
+# 3400ns :$monitor: wren=1 
+# 3500ns :$monitor: wren=1 
+# 3600ns :$monitor: wren=1 
+# 3700ns :$monitor: wren=1 
+# 3800ns :$monitor: wren=1 
+# 3900ns :$monitor: wren=1 
+# 4000ns :$monitor: wren=1 
+# 4100ns :$monitor: wren=1 
+# 4200ns :$monitor: wren=1 
+# 4250ns :$monitor: wren=0 
+# 4550ns :$monitor: wren=1 
+# 4600ns :$monitor: wren=1 
+# 4650ns :$monitor: wren=0 
+# 4950ns :$monitor: wren=1 
+# 5000ns :$monitor: wren=0 
+# 5100ns :$monitor: wren=1 
+# 5200ns :$monitor: wren=1 
+# 5300ns :$monitor: wren=1 
+# 5400ns :$monitor: wren=1 
+# 5500ns :$monitor: wren=1 
+# 5550ns :$monitor: wren=0 
+# 5750ns :$monitor: wren=1 
+# 5800ns :$monitor: wren=1 
+# 5850ns :$monitor: wren=0 
+# 6050ns :$monitor: wren=1 
+# 6100ns :$monitor: wren=1 
+# 6200ns :$monitor: wren=1 
+# 6300ns :$monitor: wren=1 
+# 6400ns :$monitor: wren=1 
+# 6500ns :$monitor: wren=1 
+# 6600ns :$monitor: wren=1 
+# 6700ns :$monitor: wren=1 
+# 6750ns :$monitor: wren=0 
+# 7050ns :$monitor: wren=1 
+# 7100ns :$monitor: wren=1 
+# 7150ns :$monitor: wren=0 
+# 7450ns :$monitor: wren=1 
+# 7500ns :$monitor: wren=0 
+# 7600ns :$monitor: wren=1 
+# 7700ns :$monitor: wren=1 
+# 7800ns :$monitor: wren=1 
+# 7900ns :$monitor: wren=1 
+# 8000ns :$monitor: wren=1 
+# 8100ns :$monitor: wren=1 
+# 8200ns :$monitor: wren=1 
+# 8300ns :$monitor: wren=1 
+# 8400ns :$monitor: wren=1 
+# 8500ns :$monitor: wren=1 
+# 8600ns :$monitor: wren=1 
+# 8650ns :$monitor: wren=0 
+# 8950ns :$monitor: wren=1 
+# 9000ns :$monitor: wren=1 
+# 9050ns :$monitor: wren=0 
+# 9250ns :$monitor: wren=1 
+# 9300ns :$monitor: wren=0 
+# 9400ns :$monitor: wren=1 
+# 9500ns :$monitor: wren=1 
+# 9600ns :$monitor: wren=1 
+# 9700ns :$monitor: wren=1 
+# 9800ns :$monitor: wren=1 
+# 9850ns :$monitor: wren=0 
+# 10050ns :$monitor: wren=1 
+# 10100ns :$monitor: wren=1 
+# 10150ns :$monitor: wren=0 
+# 10350ns :$monitor: wren=1 
+# 10400ns :$monitor: wren=1 
+# 10500ns :$monitor: wren=1 
+# 10600ns :$monitor: wren=1 
+# 10700ns :$monitor: wren=1 
+# 10800ns :$monitor: wren=1 
+# 10900ns :$monitor: wren=1 
+# 11000ns :$monitor: wren=1 
+# 11050ns :$monitor: wren=0 
+# 11350ns :$monitor: wren=1 
+# 11400ns :$monitor: wren=1 
+# 11450ns :$monitor: wren=0 
+# 11750ns :$monitor: wren=1 
+# 11800ns :$monitor: wren=0 
+# 11900ns :$monitor: wren=1 
+# 12000ns :$monitor: wren=1 
+# 12100ns :$monitor: wren=1 
+# 12200ns :$monitor: wren=1 
+# 12300ns :$monitor: wren=1 
+# 12400ns :$monitor: wren=1 
+# 12500ns :$monitor: wren=1 
+# 12600ns :$monitor: wren=1 
+# 12700ns :$monitor: wren=1 
+# 12800ns :$monitor: wren=1 
+# 12900ns :$monitor: wren=1 
+# 12950ns :$monitor: wren=0 
+# 13250ns :$monitor: wren=1 
+# 13300ns :$monitor: wren=1 
+# 13350ns :$monitor: wren=0 
+# 13550ns :$monitor: wren=1 
+# 13600ns :$monitor: wren=0 
+# 13700ns :$monitor: wren=1 
+# 13800ns :$monitor: wren=1 
+# 13900ns :$monitor: wren=1 
+# 14000ns :$monitor: wren=1 
+# 14100ns :$monitor: wren=1 
+# 14200ns :$monitor: wren=1 
+# 14300ns :$monitor: wren=1 
+# 14400ns :$monitor: wren=1 
+# 14500ns :$monitor: wren=1 
+# 14600ns :$monitor: wren=1 
+# 14700ns :$monitor: wren=1 
+# 14750ns :$monitor: wren=0 
+# 15050ns :$monitor: wren=1 
+# 15100ns :$monitor: wren=1 
+# 15150ns :$monitor: wren=0 
+# 15450ns :$monitor: wren=1 
+# 15500ns :$monitor: wren=0 
+# 15600ns :$monitor: wren=1 
+# 15700ns :$monitor: wren=1 
+# 15800ns :$monitor: wren=1 
+# 15900ns :$monitor: wren=1 
+# 16000ns :$monitor: wren=1 
+# 16050ns :$monitor: wren=0 
+# 16250ns :$monitor: wren=1 
+# 16300ns :$monitor: wren=1 
+# 16350ns :$monitor: wren=0 
+# 16550ns :$monitor: wren=1 
+# 16600ns :$monitor: wren=1 
+# 16700ns :$monitor: wren=1 
+# 16800ns :$monitor: wren=1 
+# 16900ns :$monitor: wren=1 
+# 17000ns :$monitor: wren=1 
+# 17100ns :$monitor: wren=1 
+# 17200ns :$monitor: wren=1 
+# 17250ns :$monitor: wren=0 
+# 17550ns :$monitor: wren=1 
+# 17600ns :$monitor: wren=1 
+# 17650ns :$monitor: wren=0 
+# 17950ns :$monitor: wren=1 
+# 18000ns :$monitor: wren=0 
+# 18100ns :$monitor: wren=1 
+# 18200ns :$monitor: wren=1 
+# 18300ns :$monitor: wren=1 
+# 18400ns :$monitor: wren=1 
+# 18500ns :$monitor: wren=1 
+# 18600ns :$monitor: wren=1 
+# 18700ns :$monitor: wren=1 
+# 18800ns :$monitor: wren=1 
+# 18900ns :$monitor: wren=1 
+# 19000ns :$monitor: wren=1 
+# 19100ns :$monitor: wren=1 
+# 19150ns :$monitor: wren=0 
+# 19450ns :$monitor: wren=1 
+# 19500ns :$monitor: wren=1 
+# 19550ns :$monitor: wren=0 
+# 19750ns :$monitor: wren=1 
+# 19800ns :$monitor: wren=0 
+# 19900ns :$monitor: wren=1 
+# 20000ns :$monitor: wren=1 
+# 20100ns :$monitor: wren=1 
+# 20200ns :$monitor: wren=1 
+# 20300ns :$monitor: wren=1 
+# 20400ns :$monitor: wren=1 
+# 20500ns :$monitor: wren=1 
+# 20600ns :$monitor: wren=1 
+# 20700ns :$monitor: wren=1 
+# 20800ns :$monitor: wren=1 
+# 20900ns :$monitor: wren=1 
+# 20950ns :$monitor: wren=0 
+# 21250ns :$monitor: wren=1 
+# 21300ns :$monitor: wren=1 
+# 21350ns :$monitor: wren=0 
+# 21650ns :$monitor: wren=1 
+# 21700ns :$monitor: wren=0 
+# 21800ns :$monitor: wren=1 
+# 21900ns :$monitor: wren=1 
+# 22000ns :$monitor: wren=1 
+# 22100ns :$monitor: wren=1 
+# 22200ns :$monitor: wren=1 
+# 22300ns :$monitor: wren=1 
+# 22400ns :$monitor: wren=1 
+# 22500ns :$monitor: wren=1 
+# 22600ns :$monitor: wren=1 
+# 22700ns :$monitor: wren=1 
+# 22800ns :$monitor: wren=1 
+# 22850ns :$monitor: wren=0 
+# 23150ns :$monitor: wren=1 
+# 23200ns :$monitor: wren=1 
+# 23250ns :$monitor: wren=0 
+# 23450ns :$monitor: wren=1 
+# 23500ns :$monitor: wren=0 
+# 23600ns :$monitor: wren=1 
+# 23700ns :$monitor: wren=1 
+# 23800ns :$monitor: wren=1 
+# 23900ns :$monitor: wren=1 
+# 24000ns :$monitor: wren=1 
+# 24100ns :$monitor: wren=1 
+# 24200ns :$monitor: wren=1 
+# 24300ns :$monitor: wren=1 
+# 24400ns :$monitor: wren=1 
+# 24500ns :$monitor: wren=1 
+# 24600ns :$monitor: wren=1 
+# 24650ns :$monitor: wren=0 
+# 24950ns :$monitor: wren=1 
+# 25000ns :$monitor: wren=1 
+# 25050ns :$monitor: wren=0 
+# 25350ns :$monitor: wren=1 
+# 25400ns :$monitor: wren=0 
+# 25500ns :$monitor: wren=1 
+# 25600ns :$monitor: wren=1 
+# 25700ns :$monitor: wren=1 
+# 25800ns :$monitor: wren=1 
+# 25900ns :$monitor: wren=1 
+# 25950ns :$monitor: wren=0 
+# 26150ns :$monitor: wren=1 
+# 26200ns :$monitor: wren=1 
+# 26250ns :$monitor: wren=0 
+# 26450ns :$monitor: wren=1 
+# 26500ns :$monitor: wren=1 
+# 26600ns :$monitor: wren=1 
+# 26700ns :$monitor: wren=1 
+# 26800ns :$monitor: wren=1 
+# 26900ns :$monitor: wren=1 
+# 27000ns :$monitor: wren=1 
+# 27100ns :$monitor: wren=1 
+# 27150ns :$monitor: wren=0 
+# 27450ns :$monitor: wren=1 
+# 27500ns :$monitor: wren=1 
+# 27550ns :$monitor: wren=0 
+# 27850ns :$monitor: wren=1 
+# 27900ns :$monitor: wren=0 
+# 28000ns :$monitor: wren=1 
+# 28100ns :$monitor: wren=1 
+# 28200ns :$monitor: wren=1 
+# 28300ns :$monitor: wren=1 
+# 28400ns :$monitor: wren=1 
+# 28500ns :$monitor: wren=1 
+# 28600ns :$monitor: wren=1 
+# 28700ns :$monitor: wren=1 
+# 28800ns :$monitor: wren=1 
+# 28900ns :$monitor: wren=1 
+# 29000ns :$monitor: wren=1 
+# 29050ns :$monitor: wren=0 
+# 29350ns :$monitor: wren=1 
+# 29400ns :$monitor: wren=1 
+# 29450ns :$monitor: wren=0 
+# 29650ns :$monitor: wren=1 
+# 29700ns :$monitor: wren=0 
+# 29800ns :$monitor: wren=1 
+# 29900ns :$monitor: wren=1 
+# 30000ns :$monitor: wren=1 
+# 30100ns :$monitor: wren=1 
+# ===========================================
+#       Program terminated normally
+# ===========================================
+#       Total cache read/write conditions =   36
+#       Hits =   10
+# ===========================================
+# Break in Module testbench at /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v line 610
+quit -sim
+# Compile of boot_state.v was successful.
+# Compile of branch_unit.v was successful.
+# Compile of cache.v was successful.
+# Compile of change_signal.v was successful.
+# Compile of clkrst.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of count.v was successful.
+# Compile of cpu_core.v was successful.
+# Compile of cpu_decode5to32.v was successful.
+# Compile of cpu_ex.v was successful.
+# Compile of cpu_id.v was successful.
+# Compile of cpu_if.v was successful.
+# Compile of cpu_mem.v was successful.
+# Compile of cpu_reg1_ne.v was successful.
+# Compile of cpu_reg2_ne.v was successful.
+# Compile of cpu_reg3_ne.v was successful.
+# Compile of cpu_reg4_ne.v was successful.
+# Compile of cpu_reg5_ne.v was successful.
+# Compile of cpu_reg8_ne.v was successful.
+# Compile of cpu_reg8x4_ne.v was successful.
+# Compile of cpu_reg8x4_ne_cp.v was successful.
+# Compile of cpu_reg32_ne.v was successful.
+# Compile of cpu_reg32_ne_ex.v was successful.
+# Compile of cpu_regbank.v was successful.
+# Compile of cpu_top.v was successful.
+# Compile of cpu_wb.v was successful.
+# Compile of cpu_wb_alignment.v was successful.
+# Compile of dcache_system.v was successful.
+# Compile of decision.v was successful.
+# Compile of dff.v was successful.
+# Compile of dff_en.v was successful.
+# Compile of forward_unit.v was successful.
+# Compile of fu_alu.v was successful.
+# Compile of fu_cla4.v was successful.
+# Compile of fu_cla4v.v was successful.
+# Compile of fu_csa8.v was successful.
+# Compile of fu_csa8v.v was successful.
+# Compile of fu_csa16.v was successful.
+# Compile of fu_csa16v.v was successful.
+# Compile of fu_csa32.v was successful.
+# Compile of fu_csa34.v was successful.
+# Compile of fu_shifter.v was successful.
+# Compile of fu_shifter_mask.v was successful.
+# Compile of hazard_det_unit.v was successful.
+# Compile of interrupt_controller.v was successful.
+# Compile of mem_ctrl.v was successful.
+# Compile of memc.v was successful.
+# Compile of memory.v was successful.
+# Compile of memv.v was successful.
+# Compile of mul_decode.v was successful.
+# Compile of mul_fsm.v was successful.
+# Compile of mul_reg1_ne.v was successful.
+# Compile of mul_top.v was successful.
+# Compile of testbench.v was successful.
+# Compile of timescale.v was successful.
+# Compile of hitrate.v was successful.
+# Compile of I_Cache.v was successful.
+# 57 compiles, 0 failed with no errors. 
+vsim -novopt work.testbench
+# vsim -novopt work.testbench 
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.testbench
+# Loading work.testbench
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_top
+# Loading work.cpu_top
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_core
+# Loading work.cpu_core
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.interrupt_controller
+# Loading work.interrupt_controller
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_if
+# Loading work.cpu_if
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.boot_state
+# Loading work.boot_state
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg32_ne
+# Loading work.cpu_reg32_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg32_ne_ex
+# Loading work.cpu_reg32_ne_ex
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_id
+# Loading work.cpu_id
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.control_unit
+# Loading work.control_unit
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.hazard_det_unit
+# Loading work.hazard_det_unit
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_regbank
+# Loading work.cpu_regbank
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_decode5to32
+# Loading work.cpu_decode5to32
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg8x4_ne
+# Loading work.cpu_reg8x4_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg8_ne
+# Loading work.cpu_reg8_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg8x4_ne_cp
+# Loading work.cpu_reg8x4_ne_cp
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.forward_unit
+# Loading work.forward_unit
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_csa32
+# Loading work.fu_csa32
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_csa16
+# Loading work.fu_csa16
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_csa8
+# Loading work.fu_csa8
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_cla4
+# Loading work.fu_cla4
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_csa16v
+# Loading work.fu_csa16v
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_csa8v
+# Loading work.fu_csa8v
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_cla4v
+# Loading work.fu_cla4v
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.branch_unit
+# Loading work.branch_unit
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg1_ne
+# Loading work.cpu_reg1_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg4_ne
+# Loading work.cpu_reg4_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg2_ne
+# Loading work.cpu_reg2_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg3_ne
+# Loading work.cpu_reg3_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_reg5_ne
+# Loading work.cpu_reg5_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_ex
+# Loading work.cpu_ex
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_alu
+# Loading work.fu_alu
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_shifter
+# Loading work.fu_shifter
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_shifter_mask
+# Loading work.fu_shifter_mask
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.mul_top
+# Loading work.mul_top
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.mul_fsm
+# Loading work.mul_fsm
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.mul_decode
+# Loading work.mul_decode
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.fu_csa34
+# Loading work.fu_csa34
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.mul_reg1_ne
+# Loading work.mul_reg1_ne
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_mem
+# Loading work.cpu_mem
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_wb
+# Loading work.cpu_wb
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cpu_wb_alignment
+# Loading work.cpu_wb_alignment
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.I_Cache
+# Loading work.I_Cache
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.dcache_system
+# Loading work.dcache_system
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.count
+# Loading work.count
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cacheDecide
+# Loading work.cacheDecide
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.hitrate
+# Loading work.hitrate
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.mem_ctrl
+# Loading work.mem_ctrl
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.cache
+# Loading work.cache
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.memc
+# Loading work.memc
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.memv
+# Loading work.memv
+# Refreshing /home/blahuang/Desktop/COexp/MIPS_cpu_test/work.memory
+# Loading work.memory
+# ** Warning: (vsim-3015) /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v(204): [PCDPC] - Port size (6 or 6) does not match connection size (1) for port 'IRQ'. The port definition is at: cpu_top.v(27).
+#         Region: /testbench/u_cpu_top
+# ** Warning: (vsim-3017) cpu_top.v(121): [TFMPC] - Too few port connections. Expected 22, found 16.
+#         Region: /testbench/u_cpu_top/u_cpu_core
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWDBUS'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWREN'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWRNUM'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRRNUM'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRRSEL'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRDBUS'.
+# ** Warning: (vsim-3015) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(292): [PCDPC] - Port size (8 or 8) does not match connection size (6) for port 'irq'. The port definition is at: /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_if.v(25).
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuif
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(803): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_sign
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(803): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(811): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_type
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(811): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Too few port connections. Expected 8, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_a
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'irq'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'epc'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Too few port connections. Expected 8, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_b
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'irq'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'epc'.
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(837): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_rs
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(837): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(845): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_rt
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_id.v(845): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(465): [TFMPC] - Too few port connections. Expected 71, found 70.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuex
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_ex.v(372): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuex/u_ex2m_cp0_type
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_ex.v(372): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_mem.v(372): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpumem/u_m2wb_cp0_type
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_mem.v(372): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(543): [TFMPC] - Too few port connections. Expected 14, found 13.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuwb
+# ** Warning: (vsim-3722) /home/blahuang/Desktop/COexp/MIPS_cpu_test/cpu_core.v(543): [TFMPC] - Missing connection for port 'irqn'.
+# ** Warning: (vsim-3015) /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v(225): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'DataOut_test'. The port definition is at: dcache_system.v(5).
+#         Region: /testbench/dcache1
+add wave sim:/testbench/u_cpu_top/*
+add wave sim:/testbench/u_cpu_top/u_cpu_core/*
+add wave sim:/testbench/u_cpu_top/u_cpu_core/u_cpuex/*
+add wave sim:/testbench/dcache1/*
+run -all
+### Loading internal memory (Code)###
+### Loading internal memory (InputData)###
+#       Execution Cycle =           0
+# 200ns :$monitor: wren=1 
+# 300ns :$monitor: wren=1 
+# 400ns :$monitor: wren=1 
+# 500ns :$monitor: wren=1 
+# 600ns :$monitor: wren=1 
+# 700ns :$monitor: wren=1 
+# 800ns :$monitor: wren=1 
+# 900ns :$monitor: wren=1 
+# 1000ns :$monitor: wren=1 
+# 1100ns :$monitor: wren=1 
+# 1200ns :$monitor: wren=1 
+# 1300ns :$monitor: wren=1 
+# 1400ns :$monitor: wren=1 
+# 1500ns :$monitor: wren=1 
+# 1600ns :$monitor: wren=1 
+# 1700ns :$monitor: wren=1 
+# 1800ns :$monitor: wren=1 
+# 1900ns :$monitor: wren=1 
+# 2000ns :$monitor: wren=1 
+# 2100ns :$monitor: wren=1 
+# 2200ns :$monitor: wren=1 
+# 2250ns :$monitor: wren=0 
+# 2550ns :$monitor: wren=1 
+# 2600ns :$monitor: wren=1 
+# 2650ns :$monitor: wren=0 
+# 2950ns :$monitor: wren=1 
+# 3000ns :$monitor: wren=0 
+# 3100ns :$monitor: wren=1 
+# 3200ns :$monitor: wren=1 
+# 3300ns :$monitor: wren=1 
+# 3400ns :$monitor: wren=1 
+# 3500ns :$monitor: wren=1 
+# 3600ns :$monitor: wren=1 
+# 3700ns :$monitor: wren=1 
+# 3800ns :$monitor: wren=1 
+# 3900ns :$monitor: wren=1 
+# 4000ns :$monitor: wren=1 
+# 4100ns :$monitor: wren=1 
+# 4200ns :$monitor: wren=1 
+# 4300ns :$monitor: wren=1 
+# 4350ns :$monitor: wren=0 
+# 4650ns :$monitor: wren=1 
+# 4700ns :$monitor: wren=1 
+# 4750ns :$monitor: wren=0 
+# 4950ns :$monitor: wren=1 
+# 5000ns :$monitor: wren=0 
+# 5100ns :$monitor: wren=1 
+# 5200ns :$monitor: wren=1 
+# 5300ns :$monitor: wren=1 
+# 5400ns :$monitor: wren=1 
+# 5500ns :$monitor: wren=1 
+# 5600ns :$monitor: wren=1 
+# 5700ns :$monitor: wren=1 
+# 5800ns :$monitor: wren=1 
+# 5900ns :$monitor: wren=1 
+# 6000ns :$monitor: wren=1 
+# 6100ns :$monitor: wren=1 
+# 6150ns :$monitor: wren=0 
+# 6450ns :$monitor: wren=1 
+# 6500ns :$monitor: wren=1 
+# 6550ns :$monitor: wren=0 
+# 6850ns :$monitor: wren=1 
+# 6900ns :$monitor: wren=0 
+# 7000ns :$monitor: wren=1 
+# 7100ns :$monitor: wren=1 
+# 7200ns :$monitor: wren=1 
+# 7300ns :$monitor: wren=1 
+# 7400ns :$monitor: wren=1 
+# 7450ns :$monitor: wren=0 
+# 7650ns :$monitor: wren=1 
+# 7700ns :$monitor: wren=1 
+# 7750ns :$monitor: wren=0 
+# 7950ns :$monitor: wren=1 
+# 8000ns :$monitor: wren=1 
+# 8100ns :$monitor: wren=1 
+# 8200ns :$monitor: wren=1 
+# 8300ns :$monitor: wren=1 
+# 8400ns :$monitor: wren=1 
+# 8500ns :$monitor: wren=1 
+# 8600ns :$monitor: wren=1 
+# 8650ns :$monitor: wren=0 
+# 8950ns :$monitor: wren=1 
+# 9000ns :$monitor: wren=1 
+# 9050ns :$monitor: wren=0 
+# 9350ns :$monitor: wren=1 
+# 9400ns :$monitor: wren=0 
+# 9500ns :$monitor: wren=1 
+# 9600ns :$monitor: wren=1 
+# 9700ns :$monitor: wren=1 
+# 9800ns :$monitor: wren=1 
+# 9900ns :$monitor: wren=1 
+# 10000ns :$monitor: wren=1 
+# 10100ns :$monitor: wren=1 
+# 10200ns :$monitor: wren=1 
+# 10300ns :$monitor: wren=1 
+# 10400ns :$monitor: wren=1 
+# 10500ns :$monitor: wren=1 
+# 10550ns :$monitor: wren=0 
+# 10850ns :$monitor: wren=1 
+# 10900ns :$monitor: wren=1 
+# 10950ns :$monitor: wren=0 
+# 11150ns :$monitor: wren=1 
+# 11200ns :$monitor: wren=0 
+# 11300ns :$monitor: wren=1 
+# 11400ns :$monitor: wren=1 
+# 11500ns :$monitor: wren=1 
+# 11600ns :$monitor: wren=1 
+# 11700ns :$monitor: wren=1 
+# 11750ns :$monitor: wren=0 
+# 11950ns :$monitor: wren=1 
+# 12000ns :$monitor: wren=1 
+# 12050ns :$monitor: wren=0 
+# 12250ns :$monitor: wren=1 
+# 12300ns :$monitor: wren=1 
+# 12400ns :$monitor: wren=1 
+# 12500ns :$monitor: wren=1 
+# 12600ns :$monitor: wren=1 
+# 12700ns :$monitor: wren=1 
+# 12800ns :$monitor: wren=1 
+# 12900ns :$monitor: wren=1 
+# 12950ns :$monitor: wren=0 
+# 13250ns :$monitor: wren=1 
+# 13300ns :$monitor: wren=1 
+# 13350ns :$monitor: wren=0 
+# 13650ns :$monitor: wren=1 
+# 13700ns :$monitor: wren=0 
+# 13800ns :$monitor: wren=1 
+# 13900ns :$monitor: wren=1 
+# 14000ns :$monitor: wren=1 
+# 14100ns :$monitor: wren=1 
+# 14200ns :$monitor: wren=1 
+# 14300ns :$monitor: wren=1 
+# 14400ns :$monitor: wren=1 
+# 14500ns :$monitor: wren=1 
+# 14600ns :$monitor: wren=1 
+# 14700ns :$monitor: wren=1 
+# 14800ns :$monitor: wren=1 
+# 14850ns :$monitor: wren=0 
+# 15150ns :$monitor: wren=1 
+# 15200ns :$monitor: wren=1 
+# 15250ns :$monitor: wren=0 
+# 15450ns :$monitor: wren=1 
+# 15500ns :$monitor: wren=0 
+# 15600ns :$monitor: wren=1 
+# 15700ns :$monitor: wren=1 
+# 15800ns :$monitor: wren=1 
+# 15900ns :$monitor: wren=1 
+# 16000ns :$monitor: wren=1 
+# 16100ns :$monitor: wren=1 
+# 16200ns :$monitor: wren=1 
+# 16300ns :$monitor: wren=1 
+# 16400ns :$monitor: wren=1 
+# 16500ns :$monitor: wren=1 
+# 16600ns :$monitor: wren=1 
+# 16650ns :$monitor: wren=0 
+# 16950ns :$monitor: wren=1 
+# 17000ns :$monitor: wren=1 
+# 17050ns :$monitor: wren=0 
+# 17350ns :$monitor: wren=1 
+# 17400ns :$monitor: wren=0 
+# 17500ns :$monitor: wren=1 
+# 17600ns :$monitor: wren=1 
+# 17700ns :$monitor: wren=1 
+# 17800ns :$monitor: wren=1 
+# 17900ns :$monitor: wren=1 
+# 17950ns :$monitor: wren=0 
+# 18150ns :$monitor: wren=1 
+# 18200ns :$monitor: wren=1 
+# 18250ns :$monitor: wren=0 
+# 18450ns :$monitor: wren=1 
+# 18500ns :$monitor: wren=1 
+# 18600ns :$monitor: wren=1 
+# 18700ns :$monitor: wren=1 
+# 18800ns :$monitor: wren=1 
+# 18900ns :$monitor: wren=1 
+# 19000ns :$monitor: wren=1 
+# 19100ns :$monitor: wren=1 
+# 19150ns :$monitor: wren=0 
+# 19450ns :$monitor: wren=1 
+# 19500ns :$monitor: wren=1 
+# 19550ns :$monitor: wren=0 
+# 19850ns :$monitor: wren=1 
+# 19900ns :$monitor: wren=0 
+# 20000ns :$monitor: wren=1 
+# 20100ns :$monitor: wren=1 
+# 20200ns :$monitor: wren=1 
+# 20300ns :$monitor: wren=1 
+# 20400ns :$monitor: wren=1 
+# 20500ns :$monitor: wren=1 
+# 20600ns :$monitor: wren=1 
+# 20700ns :$monitor: wren=1 
+# 20800ns :$monitor: wren=1 
+# 20900ns :$monitor: wren=1 
+# 21000ns :$monitor: wren=1 
+# 21050ns :$monitor: wren=0 
+# 21350ns :$monitor: wren=1 
+# 21400ns :$monitor: wren=1 
+# 21450ns :$monitor: wren=0 
+# 21650ns :$monitor: wren=1 
+# 21700ns :$monitor: wren=0 
+# 21800ns :$monitor: wren=1 
+# 21900ns :$monitor: wren=1 
+# 22000ns :$monitor: wren=1 
+# 22100ns :$monitor: wren=1 
+# 22200ns :$monitor: wren=1 
+# 22300ns :$monitor: wren=1 
+# 22400ns :$monitor: wren=1 
+# 22500ns :$monitor: wren=1 
+# 22600ns :$monitor: wren=1 
+# 22700ns :$monitor: wren=1 
+# 22800ns :$monitor: wren=1 
+# 22850ns :$monitor: wren=0 
+# 23150ns :$monitor: wren=1 
+# 23200ns :$monitor: wren=1 
+# 23250ns :$monitor: wren=0 
+# 23550ns :$monitor: wren=1 
+# 23600ns :$monitor: wren=0 
+# 23700ns :$monitor: wren=1 
+# 23800ns :$monitor: wren=1 
+# 23900ns :$monitor: wren=1 
+# 24000ns :$monitor: wren=1 
+# 24100ns :$monitor: wren=1 
+# 24200ns :$monitor: wren=1 
+# 24300ns :$monitor: wren=1 
+# 24400ns :$monitor: wren=1 
+# 24500ns :$monitor: wren=1 
+# 24600ns :$monitor: wren=1 
+# 24700ns :$monitor: wren=1 
+# 24750ns :$monitor: wren=0 
+# 25050ns :$monitor: wren=1 
+# 25100ns :$monitor: wren=1 
+# 25150ns :$monitor: wren=0 
+# 25350ns :$monitor: wren=1 
+# 25400ns :$monitor: wren=0 
+# 25500ns :$monitor: wren=1 
+# 25600ns :$monitor: wren=1 
+# 25700ns :$monitor: wren=1 
+# 25800ns :$monitor: wren=1 
+# 25900ns :$monitor: wren=1 
+# 26000ns :$monitor: wren=1 
+# 26100ns :$monitor: wren=1 
+# 26200ns :$monitor: wren=1 
+# 26300ns :$monitor: wren=1 
+# 26400ns :$monitor: wren=1 
+# 26500ns :$monitor: wren=1 
+# 26550ns :$monitor: wren=0 
+# 26850ns :$monitor: wren=1 
+# 26900ns :$monitor: wren=1 
+# 26950ns :$monitor: wren=0 
+# 27250ns :$monitor: wren=1 
+# 27300ns :$monitor: wren=0 
+# 27400ns :$monitor: wren=1 
+# 27500ns :$monitor: wren=1 
+# 27600ns :$monitor: wren=1 
+# 27700ns :$monitor: wren=1 
+# 27800ns :$monitor: wren=1 
+# 27850ns :$monitor: wren=0 
+# 28050ns :$monitor: wren=1 
+# 28100ns :$monitor: wren=1 
+# 28150ns :$monitor: wren=0 
+# 28350ns :$monitor: wren=1 
+# 28400ns :$monitor: wren=1 
+# 28500ns :$monitor: wren=1 
+# 28600ns :$monitor: wren=1 
+# 28700ns :$monitor: wren=1 
+# 28800ns :$monitor: wren=1 
+# 28900ns :$monitor: wren=1 
+# 29000ns :$monitor: wren=1 
+# 29050ns :$monitor: wren=0 
+# 29350ns :$monitor: wren=1 
+# 29400ns :$monitor: wren=1 
+# 29450ns :$monitor: wren=0 
+# 29750ns :$monitor: wren=1 
+# 29800ns :$monitor: wren=0 
+# 29900ns :$monitor: wren=1 
+# 30000ns :$monitor: wren=1 
+# 30100ns :$monitor: wren=1 
+# ===========================================
+#       Program terminated normally
+# ===========================================
+#       Total cache read/write conditions =   36
+#       Hits =   10
+# ===========================================
+# Break in Module testbench at /home/blahuang/Desktop/COexp/MIPS_cpu_test/testbench.v line 610
+# Causality operation skipped due to absense of debug database file

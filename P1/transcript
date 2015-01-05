@@ -1,0 +1,550 @@
+# Reading C:/modeltech_6.5/tcl/vsim/pref.tcl 
+# //  ModelSim SE 6.5 Jan 22 2009 
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile C:/E24026048_LAB6/P1/I_Cache.v 
+cd C:/E24026048_LAB6/MIPS_cpu_test
+# Loading project 555
+# Compile of boot_state.v was successful.
+# Compile of branch_unit.v was successful.
+# Compile of cache.v was successful.
+# Compile of change_signal.v was successful.
+# Compile of clkrst.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of count.v was successful.
+# Compile of cpu_core.v was successful.
+# Compile of cpu_decode5to32.v was successful.
+# Compile of cpu_ex.v was successful.
+# Compile of cpu_id.v was successful.
+# Compile of cpu_if.v was successful.
+# Compile of cpu_mem.v was successful.
+# Compile of cpu_reg1_ne.v was successful.
+# Compile of cpu_reg2_ne.v was successful.
+# Compile of cpu_reg3_ne.v was successful.
+# Compile of cpu_reg4_ne.v was successful.
+# Compile of cpu_reg5_ne.v was successful.
+# Compile of cpu_reg8_ne.v was successful.
+# Compile of cpu_reg8x4_ne.v was successful.
+# Compile of cpu_reg8x4_ne_cp.v was successful.
+# Compile of cpu_reg32_ne.v was successful.
+# Compile of cpu_reg32_ne_ex.v was successful.
+# Compile of cpu_regbank.v was successful.
+# Compile of cpu_top.v was successful.
+# Compile of cpu_wb.v was successful.
+# Compile of cpu_wb_alignment.v was successful.
+# Compile of dcache_system.v was successful.
+# Compile of decision.v was successful.
+# Compile of dff.v was successful.
+# Compile of dff_en.v was successful.
+# Compile of forward_unit.v was successful.
+# Compile of fu_alu.v was successful.
+# Compile of fu_cla4.v was successful.
+# Compile of fu_cla4v.v was successful.
+# Compile of fu_csa8.v was successful.
+# Compile of fu_csa8v.v was successful.
+# Compile of fu_csa16.v was successful.
+# Compile of fu_csa16v.v was successful.
+# Compile of fu_csa32.v was successful.
+# Compile of fu_csa34.v was successful.
+# Compile of fu_shifter.v was successful.
+# Compile of fu_shifter_mask.v was successful.
+# Compile of hazard_det_unit.v was successful.
+# Compile of hitrate.v was successful.
+# Compile of I_Cache.v was successful.
+# Compile of interrupt_controller.v was successful.
+# Compile of mem_ctrl.v was successful.
+# Compile of memc.v was successful.
+# Compile of memory.v was successful.
+# Compile of memv.v was successful.
+# Compile of mul_decode.v was successful.
+# Compile of mul_fsm.v was successful.
+# Compile of mul_reg1_ne.v was successful.
+# Compile of mul_top.v was successful.
+# Compile of testbench.v was successful.
+# Compile of timescale.v was successful.
+# 57 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.testbench
+# vsim -gui -novopt work.testbench 
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.testbench
+# Loading work.testbench
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_top
+# Loading work.cpu_top
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_core
+# Loading work.cpu_core
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.interrupt_controller
+# Loading work.interrupt_controller
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_if
+# Loading work.cpu_if
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.boot_state
+# Loading work.boot_state
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_reg32_ne
+# Loading work.cpu_reg32_ne
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_reg32_ne_ex
+# Loading work.cpu_reg32_ne_ex
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_id
+# Loading work.cpu_id
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.control_unit
+# Loading work.control_unit
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.hazard_det_unit
+# Loading work.hazard_det_unit
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_regbank
+# Loading work.cpu_regbank
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_decode5to32
+# Loading work.cpu_decode5to32
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_reg8x4_ne
+# Loading work.cpu_reg8x4_ne
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_reg8_ne
+# Loading work.cpu_reg8_ne
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_reg8x4_ne_cp
+# Loading work.cpu_reg8x4_ne_cp
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.forward_unit
+# Loading work.forward_unit
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.fu_csa32
+# Loading work.fu_csa32
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.fu_csa16
+# Loading work.fu_csa16
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.fu_csa8
+# Loading work.fu_csa8
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.fu_cla4
+# Loading work.fu_cla4
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.fu_csa16v
+# Loading work.fu_csa16v
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.fu_csa8v
+# Loading work.fu_csa8v
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.fu_cla4v
+# Loading work.fu_cla4v
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.branch_unit
+# Loading work.branch_unit
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_reg1_ne
+# Loading work.cpu_reg1_ne
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_reg4_ne
+# Loading work.cpu_reg4_ne
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_reg2_ne
+# Loading work.cpu_reg2_ne
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_reg3_ne
+# Loading work.cpu_reg3_ne
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_reg5_ne
+# Loading work.cpu_reg5_ne
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_ex
+# Loading work.cpu_ex
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.fu_alu
+# Loading work.fu_alu
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.fu_shifter
+# Loading work.fu_shifter
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.fu_shifter_mask
+# Loading work.fu_shifter_mask
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.mul_top
+# Loading work.mul_top
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.mul_fsm
+# Loading work.mul_fsm
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.mul_decode
+# Loading work.mul_decode
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.fu_csa34
+# Loading work.fu_csa34
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.mul_reg1_ne
+# Loading work.mul_reg1_ne
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_mem
+# Loading work.cpu_mem
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_wb
+# Loading work.cpu_wb
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cpu_wb_alignment
+# Loading work.cpu_wb_alignment
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.I_Cache
+# Loading work.I_Cache
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.dcache_system
+# Loading work.dcache_system
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.count
+# Loading work.count
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cacheDecide
+# Loading work.cacheDecide
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.hitrate
+# Loading work.hitrate
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.mem_ctrl
+# Loading work.mem_ctrl
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by:   Hostname:   ProcessID: 5
+#           Attempting to use alternate WLF file "./wlft5aghed".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5aghed
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5aghed
+# [TSCALE] - Module 'mem_ctrl' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dcache1/ctrl_unit
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.cache
+# Loading work.cache
+# ** Warning: (vsim-3009) [TSCALE] - Module 'cache' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dcache1/c0
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.memc
+# Loading work.memc
+# ** Warning: (vsim-3009) [TSCALE] - Module 'memc' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dcache1/c0/mem_w0
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.memv
+# Loading work.memv
+# ** Warning: (vsim-3009) [TSCALE] - Module 'memv' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dcache1/c0/mem_vl
+# Refreshing C:\E24026048_LAB6\MIPS_cpu_test\work.memory
+# Loading work.memory
+# ** Warning: (vsim-3015) C:/E24026048_LAB6/MIPS_cpu_test/testbench.v(204): [PCDPC] - Port size (6 or 6) does not match connection size (1) for port 'IRQ'.
+#         Region: /testbench/u_cpu_top
+# ** Warning: (vsim-3017) cpu_top.v(121): [TFMPC] - Too few port connections. Expected 22, found 16.
+#         Region: /testbench/u_cpu_top/u_cpu_core
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWDBUS'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWREN'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPWRNUM'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRRNUM'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRRSEL'.
+# ** Warning: (vsim-3722) cpu_top.v(121): [TFMPC] - Missing connection for port 'CPRDBUS'.
+# ** Warning: (vsim-3015) C:/E24026048_LAB6/MIPS_cpu_test/cpu_core.v(292): [PCDPC] - Port size (8 or 8) does not match connection size (6) for port 'irq'.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuif
+# ** Warning: (vsim-3017) C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v(803): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_sign
+# ** Warning: (vsim-3722) C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v(803): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v(811): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_type
+# ** Warning: (vsim-3722) C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v(811): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Too few port connections. Expected 8, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_a
+# ** Warning: (vsim-3722) C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'irq'.
+# ** Warning: (vsim-3722) C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'epc'.
+# ** Warning: (vsim-3722) C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v(821): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Too few port connections. Expected 8, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_b
+# ** Warning: (vsim-3722) C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'irq'.
+# ** Warning: (vsim-3722) C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'epc'.
+# ** Warning: (vsim-3722) C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v(829): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v(837): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_rs
+# ** Warning: (vsim-3722) C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v(837): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v(845): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuid/u_id2ex_mul_rt
+# ** Warning: (vsim-3722) C:/E24026048_LAB6/MIPS_cpu_test/cpu_id.v(845): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) C:/E24026048_LAB6/MIPS_cpu_test/cpu_core.v(465): [TFMPC] - Too few port connections. Expected 71, found 70.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuex
+# ** Warning: (vsim-3017) C:/E24026048_LAB6/MIPS_cpu_test/cpu_ex.v(372): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuex/u_ex2m_cp0_type
+# ** Warning: (vsim-3722) C:/E24026048_LAB6/MIPS_cpu_test/cpu_ex.v(372): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) C:/E24026048_LAB6/MIPS_cpu_test/cpu_mem.v(372): [TFMPC] - Too few port connections. Expected 6, found 5.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpumem/u_m2wb_cp0_type
+# ** Warning: (vsim-3722) C:/E24026048_LAB6/MIPS_cpu_test/cpu_mem.v(372): [TFMPC] - Missing connection for port 'iack'.
+# ** Warning: (vsim-3017) C:/E24026048_LAB6/MIPS_cpu_test/cpu_core.v(543): [TFMPC] - Too few port connections. Expected 14, found 13.
+#         Region: /testbench/u_cpu_top/u_cpu_core/u_cpuwb
+# ** Warning: (vsim-3722) C:/E24026048_LAB6/MIPS_cpu_test/cpu_core.v(543): [TFMPC] - Missing connection for port 'irqn'.
+# ** Warning: (vsim-3015) C:/E24026048_LAB6/MIPS_cpu_test/testbench.v(225): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'DataOut_test'.
+#         Region: /testbench/dcache1
+add wave sim:/testbench/u_cpu_top/u_i_cache/*
+run -all
+### Loading internal memory (Code)###
+### Loading internal memory (InputData)###
+#       Execution Cycle =           0
+# 200ns :$monitor: wren=1 
+# 300ns :$monitor: wren=1 
+# 400ns :$monitor: wren=1 
+# 500ns :$monitor: wren=1 
+# 600ns :$monitor: wren=1 
+# 700ns :$monitor: wren=1 
+# 800ns :$monitor: wren=1 
+# 900ns :$monitor: wren=1 
+# 1000ns :$monitor: wren=1 
+# 1100ns :$monitor: wren=1 
+# 1200ns :$monitor: wren=1 
+# 1300ns :$monitor: wren=1 
+# 1400ns :$monitor: wren=1 
+# 1500ns :$monitor: wren=1 
+# 1600ns :$monitor: wren=1 
+# 1700ns :$monitor: wren=1 
+# 1800ns :$monitor: wren=1 
+# 1850ns :$monitor: wren=0 
+# 2150ns :$monitor: wren=1 
+# 2200ns :$monitor: wren=1 
+# 2250ns :$monitor: wren=0 
+# 2550ns :$monitor: wren=1 
+# 2600ns :$monitor: wren=0 
+# 2700ns :$monitor: wren=1 
+# 2800ns :$monitor: wren=1 
+# 2900ns :$monitor: wren=1 
+# 3000ns :$monitor: wren=1 
+# 3100ns :$monitor: wren=1 
+# 3200ns :$monitor: wren=1 
+# 3300ns :$monitor: wren=1 
+# 3400ns :$monitor: wren=1 
+# 3500ns :$monitor: wren=1 
+# 3600ns :$monitor: wren=1 
+# 3700ns :$monitor: wren=1 
+# 3800ns :$monitor: wren=1 
+# 3900ns :$monitor: wren=1 
+# 4000ns :$monitor: wren=1 
+# 4100ns :$monitor: wren=1 
+# 4200ns :$monitor: wren=1 
+# 4300ns :$monitor: wren=1 
+# 4400ns :$monitor: wren=1 
+# 4500ns :$monitor: wren=1 
+# 4600ns :$monitor: wren=1 
+# 4700ns :$monitor: wren=1 
+# 4800ns :$monitor: wren=1 
+# 4900ns :$monitor: wren=1 
+# 5000ns :$monitor: wren=1 
+# 5100ns :$monitor: wren=1 
+# 5200ns :$monitor: wren=1 
+# 5300ns :$monitor: wren=1 
+# 5400ns :$monitor: wren=1 
+# 5500ns :$monitor: wren=1 
+# 5600ns :$monitor: wren=1 
+# 5700ns :$monitor: wren=1 
+# 5800ns :$monitor: wren=1 
+# 5900ns :$monitor: wren=1 
+# 6000ns :$monitor: wren=1 
+# 6100ns :$monitor: wren=1 
+# 6200ns :$monitor: wren=1 
+# 6300ns :$monitor: wren=1 
+# 6400ns :$monitor: wren=1 
+# 6500ns :$monitor: wren=1 
+# 6600ns :$monitor: wren=1 
+# 6700ns :$monitor: wren=1 
+# 6800ns :$monitor: wren=1 
+# 6900ns :$monitor: wren=1 
+# 7000ns :$monitor: wren=1 
+# 7100ns :$monitor: wren=1 
+# 7200ns :$monitor: wren=1 
+# 7300ns :$monitor: wren=1 
+# 7400ns :$monitor: wren=1 
+# 7500ns :$monitor: wren=1 
+# 7600ns :$monitor: wren=1 
+# 7700ns :$monitor: wren=1 
+# 7800ns :$monitor: wren=1 
+# 7900ns :$monitor: wren=1 
+# 8000ns :$monitor: wren=1 
+# 8100ns :$monitor: wren=1 
+# 8200ns :$monitor: wren=1 
+# 8300ns :$monitor: wren=1 
+# 8400ns :$monitor: wren=1 
+# 8500ns :$monitor: wren=1 
+# 8600ns :$monitor: wren=1 
+# 8700ns :$monitor: wren=1 
+# 8800ns :$monitor: wren=1 
+# 8900ns :$monitor: wren=1 
+# 9000ns :$monitor: wren=1 
+# 9100ns :$monitor: wren=1 
+# 9200ns :$monitor: wren=1 
+# 9300ns :$monitor: wren=1 
+# 9400ns :$monitor: wren=1 
+# 9500ns :$monitor: wren=1 
+# 9600ns :$monitor: wren=1 
+# 9700ns :$monitor: wren=1 
+# 9800ns :$monitor: wren=1 
+# 9900ns :$monitor: wren=1 
+# 10000ns :$monitor: wren=1 
+# 10100ns :$monitor: wren=1 
+# 10200ns :$monitor: wren=1 
+# 10300ns :$monitor: wren=1 
+# 10400ns :$monitor: wren=1 
+# 10500ns :$monitor: wren=1 
+# 10600ns :$monitor: wren=1 
+# 10700ns :$monitor: wren=1 
+# 10800ns :$monitor: wren=1 
+# 10900ns :$monitor: wren=1 
+# 11000ns :$monitor: wren=1 
+# 11100ns :$monitor: wren=1 
+# 11200ns :$monitor: wren=1 
+# 11300ns :$monitor: wren=1 
+# 11400ns :$monitor: wren=1 
+# 11500ns :$monitor: wren=1 
+# 11600ns :$monitor: wren=1 
+# 11700ns :$monitor: wren=1 
+# 11800ns :$monitor: wren=1 
+# 11900ns :$monitor: wren=1 
+# 12000ns :$monitor: wren=1 
+# 12100ns :$monitor: wren=1 
+# 12200ns :$monitor: wren=1 
+# 12300ns :$monitor: wren=1 
+# 12400ns :$monitor: wren=1 
+# 12500ns :$monitor: wren=1 
+# 12600ns :$monitor: wren=1 
+# 12700ns :$monitor: wren=1 
+# 12800ns :$monitor: wren=1 
+# 12900ns :$monitor: wren=1 
+# 13000ns :$monitor: wren=1 
+# 13100ns :$monitor: wren=1 
+# 13200ns :$monitor: wren=1 
+# 13300ns :$monitor: wren=1 
+# 13400ns :$monitor: wren=1 
+# 13500ns :$monitor: wren=1 
+# 13600ns :$monitor: wren=1 
+# 13700ns :$monitor: wren=1 
+# 13800ns :$monitor: wren=1 
+# 13900ns :$monitor: wren=1 
+# 14000ns :$monitor: wren=1 
+# 14100ns :$monitor: wren=1 
+# 14200ns :$monitor: wren=1 
+# 14300ns :$monitor: wren=1 
+# 14400ns :$monitor: wren=1 
+# 14500ns :$monitor: wren=1 
+# 14600ns :$monitor: wren=1 
+# 14700ns :$monitor: wren=1 
+# 14800ns :$monitor: wren=1 
+# 14900ns :$monitor: wren=1 
+# 15000ns :$monitor: wren=1 
+# 15100ns :$monitor: wren=1 
+# 15200ns :$monitor: wren=1 
+# 15300ns :$monitor: wren=1 
+# 15400ns :$monitor: wren=1 
+# 15500ns :$monitor: wren=1 
+# 15600ns :$monitor: wren=1 
+# 15700ns :$monitor: wren=1 
+# 15800ns :$monitor: wren=1 
+# 15900ns :$monitor: wren=1 
+# 16000ns :$monitor: wren=1 
+# 16100ns :$monitor: wren=1 
+# 16200ns :$monitor: wren=1 
+# 16300ns :$monitor: wren=1 
+# 16400ns :$monitor: wren=1 
+# 16500ns :$monitor: wren=1 
+# 16600ns :$monitor: wren=1 
+# 16700ns :$monitor: wren=1 
+# 16800ns :$monitor: wren=1 
+# 16900ns :$monitor: wren=1 
+# 17000ns :$monitor: wren=1 
+# 17100ns :$monitor: wren=1 
+# 17200ns :$monitor: wren=1 
+# 17300ns :$monitor: wren=1 
+# 17400ns :$monitor: wren=1 
+# 17500ns :$monitor: wren=1 
+# 17600ns :$monitor: wren=1 
+# 17700ns :$monitor: wren=1 
+# 17800ns :$monitor: wren=1 
+# 17900ns :$monitor: wren=1 
+# 18000ns :$monitor: wren=1 
+# 18100ns :$monitor: wren=1 
+# 18200ns :$monitor: wren=1 
+# 18300ns :$monitor: wren=1 
+# 18400ns :$monitor: wren=1 
+# 18500ns :$monitor: wren=1 
+# 18600ns :$monitor: wren=1 
+# 18700ns :$monitor: wren=1 
+# 18800ns :$monitor: wren=1 
+# 18900ns :$monitor: wren=1 
+# 19000ns :$monitor: wren=1 
+# 19100ns :$monitor: wren=1 
+# 19200ns :$monitor: wren=1 
+# 19300ns :$monitor: wren=1 
+# 19400ns :$monitor: wren=1 
+# 19500ns :$monitor: wren=1 
+# 19600ns :$monitor: wren=1 
+# 19700ns :$monitor: wren=1 
+# 19800ns :$monitor: wren=1 
+# 19900ns :$monitor: wren=1 
+# 20000ns :$monitor: wren=1 
+# 20100ns :$monitor: wren=1 
+# 20200ns :$monitor: wren=1 
+# 20300ns :$monitor: wren=1 
+# 20400ns :$monitor: wren=1 
+# 20500ns :$monitor: wren=1 
+# 20600ns :$monitor: wren=1 
+# 20700ns :$monitor: wren=1 
+# 20800ns :$monitor: wren=1 
+# 20900ns :$monitor: wren=1 
+# 21000ns :$monitor: wren=1 
+# 21100ns :$monitor: wren=1 
+# 21200ns :$monitor: wren=1 
+# 21300ns :$monitor: wren=1 
+# 21400ns :$monitor: wren=1 
+# 21500ns :$monitor: wren=1 
+# 21600ns :$monitor: wren=1 
+# 21700ns :$monitor: wren=1 
+# 21800ns :$monitor: wren=1 
+# 21900ns :$monitor: wren=1 
+# 22000ns :$monitor: wren=1 
+# 22100ns :$monitor: wren=1 
+# 22200ns :$monitor: wren=1 
+# 22300ns :$monitor: wren=1 
+# 22400ns :$monitor: wren=1 
+# 22500ns :$monitor: wren=1 
+# 22600ns :$monitor: wren=1 
+# 22700ns :$monitor: wren=1 
+# 22800ns :$monitor: wren=1 
+# 22900ns :$monitor: wren=1 
+# 23000ns :$monitor: wren=1 
+# 23100ns :$monitor: wren=1 
+# 23200ns :$monitor: wren=1 
+# 23300ns :$monitor: wren=1 
+# 23400ns :$monitor: wren=1 
+# 23500ns :$monitor: wren=1 
+# 23600ns :$monitor: wren=1 
+# 23700ns :$monitor: wren=1 
+# 23800ns :$monitor: wren=1 
+# 23900ns :$monitor: wren=1 
+# 24000ns :$monitor: wren=1 
+# 24100ns :$monitor: wren=1 
+# 24200ns :$monitor: wren=1 
+# 24300ns :$monitor: wren=1 
+# 24400ns :$monitor: wren=1 
+# 24500ns :$monitor: wren=1 
+# 24600ns :$monitor: wren=1 
+# 24700ns :$monitor: wren=1 
+# 24800ns :$monitor: wren=1 
+# 24900ns :$monitor: wren=1 
+# 25000ns :$monitor: wren=1 
+# 25100ns :$monitor: wren=1 
+# 25200ns :$monitor: wren=1 
+# 25300ns :$monitor: wren=1 
+# 25400ns :$monitor: wren=1 
+# 25500ns :$monitor: wren=1 
+# 25600ns :$monitor: wren=1 
+# 25700ns :$monitor: wren=1 
+# 25800ns :$monitor: wren=1 
+# 25900ns :$monitor: wren=1 
+# 26000ns :$monitor: wren=1 
+# 26100ns :$monitor: wren=1 
+# 26200ns :$monitor: wren=1 
+# 26300ns :$monitor: wren=1 
+# 26400ns :$monitor: wren=1 
+# 26500ns :$monitor: wren=1 
+# 26600ns :$monitor: wren=1 
+# 26700ns :$monitor: wren=1 
+# 26800ns :$monitor: wren=1 
+# 26900ns :$monitor: wren=1 
+# 27000ns :$monitor: wren=1 
+# 27100ns :$monitor: wren=1 
+# 27200ns :$monitor: wren=1 
+# 27300ns :$monitor: wren=1 
+# 27400ns :$monitor: wren=1 
+# 27500ns :$monitor: wren=1 
+# 27600ns :$monitor: wren=1 
+# 27700ns :$monitor: wren=1 
+# 27800ns :$monitor: wren=1 
+# 27900ns :$monitor: wren=1 
+# 28000ns :$monitor: wren=1 
+# 28100ns :$monitor: wren=1 
+# 28200ns :$monitor: wren=1 
+# 28300ns :$monitor: wren=1 
+# 28400ns :$monitor: wren=1 
+# 28500ns :$monitor: wren=1 
+# 28600ns :$monitor: wren=1 
+# 28700ns :$monitor: wren=1 
+# 28800ns :$monitor: wren=1 
+# 28900ns :$monitor: wren=1 
+# 29000ns :$monitor: wren=1 
+# 29100ns :$monitor: wren=1 
+# 29200ns :$monitor: wren=1 
+# 29300ns :$monitor: wren=1 
+# 29400ns :$monitor: wren=1 
+# 29500ns :$monitor: wren=1 
+# 29600ns :$monitor: wren=1 
+# 29700ns :$monitor: wren=1 
+# 29800ns :$monitor: wren=1 
+# 29900ns :$monitor: wren=1 
+# 30000ns :$monitor: wren=1 
+# 30100ns :$monitor: wren=1 
+# ===========================================
+#       Program terminated normally
+# ===========================================
+#       Total cache read/write conditions =    2
+#       Hits =    0
+# ===========================================
+# Break in Module testbench at C:/E24026048_LAB6/MIPS_cpu_test/testbench.v line 610
